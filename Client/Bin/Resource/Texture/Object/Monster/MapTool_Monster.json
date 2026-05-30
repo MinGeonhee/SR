@@ -1,0 +1,118 @@
+{
+    "frames": [
+      {
+        "filename": "MONSTER_GOBLIN_HAMMER",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "filename": "MONSTER_ORGE_AXE",
+        "frame": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "filename": "MONSTER_RAT",
+        "frame": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "filename": "MONSTER_GOBLIN_FIREBALL",
+        "frame": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "monster_spritesheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 256,
+      "h": 64
+    },
+    "MAPOBJECT_CATEGORY": "MONSTER",
+    "MAPOBJECT_PLACEMENT": "GROUND",
+
+    "scale": "1"
+  }
+}

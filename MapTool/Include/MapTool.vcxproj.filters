@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\pch , MapTool Cpp">
+      <UniqueIdentifier>{97f0baab-e283-4dd5-aec7-1a497e535a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Trash">
+      <UniqueIdentifier>{ffaeb44d-2cfa-416d-ba4c-0a3bdef94a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui">
+      <UniqueIdentifier>{328f3619-6aa4-4972-8395-b34788210f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Header">
+      <UniqueIdentifier>{72deca58-359d-45dc-8619-495f41f7a2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code">
+      <UniqueIdentifier>{ab959e86-dba4-459a-ac8a-c808e657c889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MapTool">
+      <UniqueIdentifier>{32a9a8be-94f1-4cba-995b-d9b1bd359744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{7d6daf51-70dc-4648-b199-84c2eec2e6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Grid">
+      <UniqueIdentifier>{1e3d25c7-e5c3-4e76-88d1-c0f8bc785fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Terrain">
+      <UniqueIdentifier>{1776b37a-8468-4a5e-9b15-fa53ebdb72be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGuiManager">
+      <UniqueIdentifier>{116b8ea6-9581-488b-af87-33704dcdbf3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{2eaa2c20-6e1c-4c2c-b049-6265ecb0f046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\ToolManager">
+      <UniqueIdentifier>{e5f5611d-85cb-4ea1-a20b-aa10798b7906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\GridManager">
+      <UniqueIdentifier>{5ff3fcb5-d3c1-4357-bbb4-3ca39144c01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\CameraMan">
+      <UniqueIdentifier>{bc683ccc-0b06-4b86-b478-12efd2cef102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{5c867603-5dd6-4f08-aa59-60b283fbef57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\ToolScene">
+      <UniqueIdentifier>{d488a793-c2b2-4ad6-9221-e5dcbd8f16b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGuiFileDialog">
+      <UniqueIdentifier>{587facb5-49ea-4a8d-93d8-efc87c6771f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGuiDemo">
+      <UniqueIdentifier>{ed67e1fe-09a5-407e-985c-b59d1883d9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGui">
+      <UniqueIdentifier>{3a4a6da5-5789-4ac9-b939-68dc8da160cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGuiDraw">
+      <UniqueIdentifier>{02acfebf-5f19-4a1b-ae14-10d298328bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGui_Impl_dx9">
+      <UniqueIdentifier>{ecf99772-7725-4e42-b356-481f4f9197ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGui_Impl_win32">
+      <UniqueIdentifier>{8701e107-7992-4919-bdf9-3ccd41794380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGui_tables">
+      <UniqueIdentifier>{3f11a2d1-ffc9-48dd-84ab-f646c4ccf378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\Dirent">
+      <UniqueIdentifier>{a3320e93-7ce9-44f6-9591-fffa0b96794e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\Code\ImGuiStdLib">
+      <UniqueIdentifier>{20e7690c-4738-4afe-95e5-c606a661a098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGuiManager\ImGui_MapToolUI">
+      <UniqueIdentifier>{5a708a28-7a77-4871-a409-b5b4bc214137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImGui\ImGuiFuntion">
+      <UniqueIdentifier>{7a64fd44-cd6a-4edd-911a-c5269043411c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapTool.h">
+      <Filter>소스 파일\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>헤더 파일\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imconfig.h">
+      <Filter>소스 파일\ImGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imgui_internal.h">
+      <Filter>소스 파일\ImGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imstb_rectpack.h">
+      <Filter>소스 파일\ImGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imstb_textedit.h">
+      <Filter>소스 파일\ImGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imstb_truetype.h">
+      <Filter>소스 파일\ImGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CImGui.h">
+      <Filter>소스 파일\ImGuiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGrid.h">
+      <Filter>소스 파일\GameObject\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTerrain.h">
+      <Filter>소스 파일\GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CToolManager.h">
+      <Filter>소스 파일\Manager\ToolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGridManager.h">
+      <Filter>소스 파일\Manager\GridManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCameraMan.h">
+      <Filter>소스 파일\GameObject\CameraMan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CToolScene.h">
+      <Filter>소스 파일\Scene\ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imgui.h">
+      <Filter>소스 파일\ImGui\Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imgui_impl_dx9.h">
+      <Filter>소스 파일\ImGui\Code\ImGui_Impl_dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imgui_impl_win32.h">
+      <Filter>소스 파일\ImGui\Code\ImGui_Impl_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ImGuiFileDialogConfig.h">
+      <Filter>소스 파일\ImGui\Code\ImGuiFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ImGuiFileDialog.h">
+      <Filter>소스 파일\ImGui\Code\ImGuiFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\dirent.h">
+      <Filter>소스 파일\ImGui\Code\Dirent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\imgui_stdlib.h">
+      <Filter>소스 파일\ImGui\Code\ImGuiStdLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\pch , MapTool Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>소스 파일\pch , MapTool Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapTool.cpp">
+      <Filter>소스 파일\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_widgets.cpp">
+      <Filter>소스 파일\ImGui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CImGui.cpp">
+      <Filter>소스 파일\ImGuiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTerrain.cpp">
+      <Filter>소스 파일\GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCameraMan.cpp">
+      <Filter>소스 파일\GameObject\CameraMan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGrid.cpp">
+      <Filter>소스 파일\GameObject\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGridManager.cpp">
+      <Filter>소스 파일\Manager\GridManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CToolManager.cpp">
+      <Filter>소스 파일\Manager\ToolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CToolScene.cpp">
+      <Filter>소스 파일\Scene\ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ImGuiFileDialog.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGuiFileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_demo.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGuiDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_draw.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGuiDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_impl_dx9.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGui_Impl_dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_impl_win32.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGui_Impl_win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_tables.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGui_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\imgui_stdlib.cpp">
+      <Filter>소스 파일\ImGui\Code\ImGuiStdLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MapTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

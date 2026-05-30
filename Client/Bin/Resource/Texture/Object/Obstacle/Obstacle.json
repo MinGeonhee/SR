@@ -1,0 +1,281 @@
+{"frames": [
+
+{
+	"filename": "Ground_Obstacle_0.png",
+	"frame": {"x":418,"y":174,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "Ground_Obstacle_1.png",
+	"frame": {"x":380,"y":174,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "Ground_Obstacle_2.png",
+	"frame": {"x":380,"y":136,"w":64,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
+	"sourceSize": {"w":64,"h":32}
+},
+{
+	"filename": "Ground_Obstacle_3.png",
+	"frame": {"x":380,"y":98,"w":64,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
+	"sourceSize": {"w":64,"h":32}
+},
+{
+	"filename": "Ground_Obstacle_4.png",
+	"frame": {"x":310,"y":158,"w":64,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
+	"sourceSize": {"w":64,"h":32}
+},
+{
+	"filename": "Ground_Obstacle_5.png",
+	"frame": {"x":0,"y":0,"w":112,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":119},
+	"sourceSize": {"w":112,"h":119}
+},
+{
+	"filename": "Ground_Obstacle_6.png",
+	"frame": {"x":118,"y":0,"w":112,"h":118},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":118},
+	"sourceSize": {"w":112,"h":118}
+},
+{
+	"filename": "Ground_Obstacle_7.png",
+	"frame": {"x":0,"y":125,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+{
+	"filename": "Ground_Obstacle_8.png",
+	"frame": {"x":102,"y":125,"w":106,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":113},
+	"sourceSize": {"w":106,"h":113}
+},
+{
+	"filename": "Ground_Obstacle_9.png",
+	"frame": {"x":539,"y":0,"w":8,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":51},
+	"sourceSize": {"w":8,"h":51}
+},
+{
+	"filename": "Ground_Obstacle_10.png",
+	"frame": {"x":517,"y":0,"w":16,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":48},
+	"sourceSize": {"w":16,"h":48}
+},
+{
+	"filename": "Ground_Obstacle_11.png",
+	"frame": {"x":532,"y":156,"w":30,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":31},
+	"sourceSize": {"w":30,"h":31}
+},
+{
+	"filename": "Ground_Obstacle_12.png",
+	"frame": {"x":532,"y":118,"w":30,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
+	"sourceSize": {"w":30,"h":32}
+},
+{
+	"filename": "Ground_Obstacle_13.png",
+	"frame": {"x":547,"y":82,"w":27,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":30},
+	"sourceSize": {"w":27,"h":30}
+},
+{
+	"filename": "Ground_Obstacle_14.png",
+	"frame": {"x":442,"y":0,"w":31,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":61},
+	"sourceSize": {"w":31,"h":61}
+},
+{
+	"filename": "Ground_Obstacle_15.png",
+	"frame": {"x":494,"y":181,"w":32,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":45},
+	"sourceSize": {"w":32,"h":45}
+},
+{
+	"filename": "Ground_Obstacle_16.png",
+	"frame": {"x":336,"y":196,"w":38,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":56},
+	"sourceSize": {"w":38,"h":56}
+},
+{
+	"filename": "Ground_Obstacle_17.png",
+	"frame": {"x":479,"y":0,"w":32,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":58},
+	"sourceSize": {"w":32,"h":58}
+},
+{
+	"filename": "Ground_Obstacle_18.png",
+	"frame": {"x":494,"y":118,"w":32,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":57},
+	"sourceSize": {"w":32,"h":57}
+},
+{
+	"filename": "Ground_Obstacle_19.png",
+	"frame": {"x":355,"y":0,"w":81,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":44},
+	"sourceSize": {"w":81,"h":44}
+},
+{
+	"filename": "Ground_Obstacle_20.png",
+	"frame": {"x":355,"y":50,"w":78,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":42},
+	"sourceSize": {"w":78,"h":42}
+},
+{
+	"filename": "Ground_Obstacle_21.png",
+	"frame": {"x":502,"y":84,"w":39,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":28},
+	"sourceSize": {"w":39,"h":28}
+},
+{
+	"filename": "Ground_Obstacle_22.png",
+	"frame": {"x":532,"y":193,"w":32,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":28},
+	"sourceSize": {"w":32,"h":28}
+},
+{
+	"filename": "Ground_Obstacle_23.png",
+	"frame": {"x":456,"y":182,"w":32,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":58},
+	"sourceSize": {"w":32,"h":58}
+},
+{
+	"filename": "Ground_Obstacle_24.png",
+	"frame": {"x":450,"y":67,"w":46,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":45},
+	"sourceSize": {"w":46,"h":45}
+},
+{
+	"filename": "Ground_Obstacle_25.png",
+	"frame": {"x":214,"y":124,"w":59,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":57},
+	"sourceSize": {"w":59,"h":57}
+},
+{
+	"filename": "Ground_Obstacle_26.png",
+	"frame": {"x":270,"y":208,"w":60,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":32},
+	"sourceSize": {"w":60,"h":32}
+},
+{
+	"filename": "Ground_Obstacle_27.png",
+	"frame": {"x":279,"y":115,"w":25,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":87},
+	"sourceSize": {"w":25,"h":87}
+},
+{
+	"filename": "Ground_Obstacle_28.png",
+	"frame": {"x":456,"y":118,"w":32,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":58},
+	"sourceSize": {"w":32,"h":58}
+},
+{
+	"filename": "Ground_Obstacle_29.png",
+	"frame": {"x":532,"y":227,"w":32,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":25},
+	"sourceSize": {"w":32,"h":25}
+},
+{
+	"filename": "Ground_Obstacle_30.png",
+	"frame": {"x":236,"y":0,"w":113,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":109},
+	"sourceSize": {"w":113,"h":109}
+},
+{
+	"filename": "Ground_Obstacle_31.png",
+	"frame": {"x":214,"y":187,"w":36,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":62},
+	"sourceSize": {"w":36,"h":62}
+},
+{
+	"filename": "Ground_Obstacle_32.png",
+	"frame": {"x":310,"y":115,"w":64,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":37},
+	"sourceSize": {"w":64,"h":37}
+}],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "Ground_Obstacle-0.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 574,
+			"h": 252
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:271406c1498f6eae52afec72fe95622b:fec8a66401ef4dd287bb155a526ad3f6:72c259227f0e4aa54a27812d9f2de5a0$",
+		"MAPOBJECT_CATEGORY": "OBSTACLE",
+		"MAPOBJECT_PLACEMENT": "GROUND"
+	}
+}

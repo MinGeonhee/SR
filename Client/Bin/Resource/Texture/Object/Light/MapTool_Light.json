@@ -1,0 +1,97 @@
+{
+    "frames": [
+        {
+            "filename": "CANDLE",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 64
+            },
+            "PLACEMENT": "GROUND"
+        },
+        {
+            "filename": "CANDLETRIPLE",
+            "frame": {
+                "x": 0,
+                "y": 64,
+                "w": 32,
+                "h": 64
+            },
+            "PLACEMENT": "GROUND"
+        },
+        {
+            "filename": "WALLTORCH",
+            "frame": {
+                "x": 0,
+                "y": 128,
+                "w": 16,
+                "h": 32
+            },
+            "PLACEMENT": "WALL"
+        },
+        {
+            "filename": "GROUNDTORCH",
+            "frame": {
+                "x": 0,
+                "y": 160,
+                "w": 16,
+                "h": 32
+            },
+            "PLACEMENT": "WALL"
+        },
+        {
+            "filename": "HANGINGBRAZIER",
+            "frame": {
+                "x": 0,
+                "y": 192,
+                "w": 32,
+                "h": 64
+            },
+            "PLACEMENT": "GROUND"
+        },
+        {
+            "filename": "STATUE",
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 44,
+                "h": 59
+            },
+            "PLACEMENT": "GROUND"
+        },
+        {
+            "filename": "CHANDELIER",
+            "frame": {
+                "x": 0,
+                "y": 315,
+                "w": 64,
+                "h": 32
+            },
+            "PLACEMENT": "GROUND"
+        },
+        {
+            "filename": "FIREALTAR",
+            "frame": {
+                "x": 0,
+                "y": 347,
+                "w": 64,
+                "h": 64
+            },
+            "PLACEMENT": "GROUND"
+        }
+    ],
+    "meta": {
+        "app": "Custom Atlas Generator",
+        "version": "1.0",
+        "image": "MapObject_Light_Extended.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 64,
+            "h": 411
+        },
+        "scale": "1",
+        "MAPOBJECT_CATEGORY": "LIGHT",
+        "MAPOBJECT_PLACEMENT": "GROUND"
+    }
+}

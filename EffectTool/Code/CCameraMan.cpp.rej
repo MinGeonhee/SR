@@ -1,0 +1,290 @@
+diff a/EffectTool/Code/CCameraMan.cpp b/EffectTool/Code/CCameraMan.cpp	(rejected hunks)
+@@ -1,144 +0,144 @@
+-#include "pch.h"
+-#include "CCameraMan.h"
+-#include "CProtoTypeManager.h"
+-#include "CInputManager.h"
+-#include "CRendererManager.h"
+-
+-CCameraMan::CCameraMan(const CCameraMan& rhs)
+-	: CGameObject(rhs)
+-{
+-}
+-
+-CCameraMan::CCameraMan(LPDIRECT3DDEVICE9 pGraphicDev)
+-	: CGameObject(pGraphicDev) , m_pCameraCom(nullptr), m_pTransformCom(nullptr)
+-{
+-}
+-
+-CCameraMan::~CCameraMan()
+-{
+-}
+-
+-void CCameraMan::Free()
+-{
+-	CGameObject::Free();
+-}
+-
+-HRESULT CCameraMan::Ready_GameObject()
+-{
+-	// �̴ϼȶ����� �κп��� ������Ʈ �߰��� �Ѵ�.
+-	if (FAILED(Add_Component()))
+-		return E_FAIL;
+-
+-	m_fSpeed = 10.f;
+-
+-	//CAM_CINEMATIC
+-	m_pCameraCom->Set_CameraState(CAM_TOOLMODE_EFFECT);
+-	m_pCameraCom->Set_MyOwner(this);
+-	m_pCameraCom->Set_MyTransform(m_pTransformCom);
+-	m_pCameraCom->Camera_Inintialize();
+-
+-
+-	m_pTransformCom->Set_Pos(0.f, 0.5f, -3.f);
+-	//m_pCameraCom->Get_Transform()->Set_Pos(m_pTransformCom->Get_Info(E)->x, m_pTransformCom->GetInfo()->y, m_pTransformCom->GetInfo()->z);
+-
+-
+-	return S_OK;
+-}
+-
+-_int CCameraMan::Update_GameObject(const _float& fTimeDelta)
+-{
+-	CGameObject::Update_GameObject(fTimeDelta);
+-	CRendererManager::GetInstance()->Add_RenderGroup(RENDER_NONALPHA, this);
+-
+-	return 0;
+-}
+-
+-void CCameraMan::LateUpdate_GameObject(const _float& fTimeDelta)
+-{
+-	Move_Camera(fTimeDelta);
+-	CGameObject::LateUpdate_GameObject(fTimeDelta);
+-}
+-
+-void CCameraMan::Render_GameObject()
+-{
+-	m_pGraphicDev->SetRenderState(D3DRS_CULLMODE, D3DCULL_NONE);
+-	m_pGraphicDev->SetTransform(D3DTS_WORLD, m_pTransformCom->Get_World());
+-	// �ٽ� ����.
+-	m_pGraphicDev->SetRenderState(D3DRS_CULLMODE, D3DCULL_CCW);
+-}
+-
+-HRESULT CCameraMan::Add_Component()
+-{
+-	CComponent* pComponent = NULL;
+-	// transform ������Ʈ.
+-
+-	pComponent = m_pTransformCom = CLONE_PROTOTYPE(PROTO_TRANS, CTransform);
+-
+-	if (pComponent == NULL)
+-		return E_FAIL;
+-
+-	m_mapComponent[ID_DYNAMIC].insert({ L"Com_Transform", pComponent });
+-
+-	// ī�޶� ������Ʈ ����.
+-	pComponent = m_pCameraCom = CLONE_PROTOTYPE(PROTO_CAMERA, CCamera);
+-
+-	if (pComponent == NULL)
+-		return E_FAIL;
+-
+-	m_mapComponent[ID_DYNAMIC].insert({ L"Com_Camera", pComponent });
+-
+-	return S_OK;
+-}
+-
+-void CCameraMan::Move_Camera(const _float& fTimeDelta)
+-{
+-	_vec3 vRight;
+-	_vec3 vLook;
+-	m_pTransformCom->Get_Info(INFO_LOOK,&vLook);
+-	m_pTransformCom->Get_Info(INFO_RIGHT,&vRight);
+-	D3DXVec3Normalize(&vRight,&vRight);
+-	D3DXVec3Normalize(&vLook,&vLook);
+-
+-	
+-	
+-	if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::UP))
+-	{
+-		m_pTransformCom->Move_Pos(&vLook, m_fSpeed , fTimeDelta);
+-		m_pCameraCom->Get_Transform()->Move_Pos(&vLook, m_fSpeed, fTimeDelta);
+-	}
+-	else if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::DOWN))
+-	{
+-		m_pTransformCom->Move_Pos(&vLook, -m_fSpeed, fTimeDelta);
+-		m_pCameraCom->Get_Transform()->Move_Pos(&vLook, m_fSpeed, fTimeDelta);
+-	}
+-	else if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::LEFT))
+-	{
+-		m_pTransformCom->Move_Pos(&vRight, -m_fSpeed, fTimeDelta);
+-		m_pCameraCom->Get_Transform()->Move_Pos(&vRight, m_fSpeed, fTimeDelta);
+-	}
+-	else if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::RIGHT))
+-	{
+-		m_pTransformCom->Move_Pos(&vRight, m_fSpeed, fTimeDelta);
+-		m_pCameraCom->Get_Transform()->Move_Pos(&vRight, m_fSpeed, fTimeDelta);
+-	}
+-
+-}
+-
+-void CCameraMan::Change_CameraState()
+-{
+-
+-}
+-
+-CCameraMan* CCameraMan::Create(LPDIRECT3DDEVICE9 pGraphicDev)
+-{
+-	CCameraMan* pObj = new CCameraMan(pGraphicDev);
+-
+-	if (FAILED(pObj->Ready_GameObject()))
+-	{
+-		// ���࿡ ����� ������ ���� �ʾҴٸ� �ٷ� ����.
+-		Safe_Release(pObj);
+-		MSG_BOX("Camera Create Failed");
+-		return nullptr;
+-	}
+-	return pObj;
+-}
++#include "pch.h"
++#include "CCameraMan.h"
++#include "CProtoTypeManager.h"
++#include "CInputManager.h"
++#include "CRendererManager.h"
++
++CCameraMan::CCameraMan(const CCameraMan& rhs)
++	: CGameObject(rhs)
++{
++}
++
++CCameraMan::CCameraMan(LPDIRECT3DDEVICE9 pGraphicDev)
++	: CGameObject(pGraphicDev) , m_pCameraCom(nullptr), m_pTransformCom(nullptr)
++{
++}
++
++CCameraMan::~CCameraMan()
++{
++}
++
++void CCameraMan::Free()
++{
++	CGameObject::Free();
++}
++
++HRESULT CCameraMan::Ready_GameObject()
++{
++	// �̴ϼȶ����� �κп��� ������Ʈ �߰��� �Ѵ�.
++	if (FAILED(Add_Component()))
++		return E_FAIL;
++
++	m_fSpeed = 10.f;
++
++	//CAM_CINEMATIC
++	m_pCameraCom->Set_CameraState(CAM_TOOLMODE_EFFECT);
++	m_pCameraCom->Set_MyOwner(this);
++	m_pCameraCom->Set_MyTransform(m_pTransformCom);
++	m_pCameraCom->Camera_Inintialize();
++
++
++	m_pTransformCom->Set_Pos(0.f, 0.7f, -3.f);
++	//m_pCameraCom->Get_Transform()->Set_Pos(m_pTransformCom->Get_Info(E)->x, m_pTransformCom->GetInfo()->y, m_pTransformCom->GetInfo()->z);
++
++
++	return S_OK;
++}
++
++_int CCameraMan::Update_GameObject(const _float& fTimeDelta)
++{
++	CGameObject::Update_GameObject(fTimeDelta);
++	CRendererManager::GetInstance()->Add_RenderGroup(RENDER_NONALPHA, this);
++
++	return 0;
++}
++
++void CCameraMan::LateUpdate_GameObject(const _float& fTimeDelta)
++{
++	Move_Camera(fTimeDelta);
++	CGameObject::LateUpdate_GameObject(fTimeDelta);
++}
++
++void CCameraMan::Render_GameObject()
++{
++	m_pGraphicDev->SetRenderState(D3DRS_CULLMODE, D3DCULL_NONE);
++	m_pGraphicDev->SetTransform(D3DTS_WORLD, m_pTransformCom->Get_World());
++	// �ٽ� ����.
++	m_pGraphicDev->SetRenderState(D3DRS_CULLMODE, D3DCULL_CCW);
++}
++
++HRESULT CCameraMan::Add_Component()
++{
++	CComponent* pComponent = NULL;
++	// transform ������Ʈ.
++
++	pComponent = m_pTransformCom = CLONE_PROTOTYPE(PROTO_TRANS, CTransform);
++
++	if (pComponent == NULL)
++		return E_FAIL;
++
++	m_mapComponent[ID_DYNAMIC].insert({ L"Com_Transform", pComponent });
++
++	// ī�޶� ������Ʈ ����.
++	pComponent = m_pCameraCom = CLONE_PROTOTYPE(PROTO_CAMERA, CCamera);
++
++	if (pComponent == NULL)
++		return E_FAIL;
++
++	m_mapComponent[ID_DYNAMIC].insert({ L"Com_Camera", pComponent });
++
++	return S_OK;
++}
++
++void CCameraMan::Move_Camera(const _float& fTimeDelta)
++{
++	_vec3 vRight;
++	_vec3 vLook;
++	m_pTransformCom->Get_Info(INFO_LOOK,&vLook);
++	m_pTransformCom->Get_Info(INFO_RIGHT,&vRight);
++	D3DXVec3Normalize(&vRight,&vRight);
++	D3DXVec3Normalize(&vLook,&vLook);
++
++	
++	
++	if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::UP))
++	{
++		m_pTransformCom->Move_Pos(&vLook, m_fSpeed , fTimeDelta);
++		m_pCameraCom->Get_Transform()->Move_Pos(&vLook, m_fSpeed, fTimeDelta);
++	}
++	else if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::DOWN))
++	{
++		m_pTransformCom->Move_Pos(&vLook, -m_fSpeed, fTimeDelta);
++		m_pCameraCom->Get_Transform()->Move_Pos(&vLook, m_fSpeed, fTimeDelta);
++	}
++	else if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::LEFT))
++	{
++		m_pTransformCom->Move_Pos(&vRight, -m_fSpeed, fTimeDelta);
++		m_pCameraCom->Get_Transform()->Move_Pos(&vRight, m_fSpeed, fTimeDelta);
++	}
++	else if (CInputManager::GetInstance()->GetButtonPress(KEY_TYPE::RIGHT))
++	{
++		m_pTransformCom->Move_Pos(&vRight, m_fSpeed, fTimeDelta);
++		m_pCameraCom->Get_Transform()->Move_Pos(&vRight, m_fSpeed, fTimeDelta);
++	}
++
++}
++
++void CCameraMan::Change_CameraState()
++{
++
++}
++
++CCameraMan* CCameraMan::Create(LPDIRECT3DDEVICE9 pGraphicDev)
++{
++	CCameraMan* pObj = new CCameraMan(pGraphicDev);
++
++	if (FAILED(pObj->Ready_GameObject()))
++	{
++		// ���࿡ ����� ������ ���� �ʾҴٸ� �ٷ� ����.
++		Safe_Release(pObj);
++		MSG_BOX("Camera Create Failed");
++		return nullptr;
++	}
++	return pObj;
++}

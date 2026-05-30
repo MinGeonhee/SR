@@ -1,0 +1,1754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Code\CTime.cpp">
+      <Filter>00. Manager\01. TimeManager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTimeManager.cpp">
+      <Filter>00. Manager\01. TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInputManager.cpp">
+      <Filter>00. Manager\02. InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFrame.cpp">
+      <Filter>00. Manager\03. FrameManager\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFrameManager.cpp">
+      <Filter>00. Manager\03. FrameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CProtoTypeManager.cpp">
+      <Filter>00. Manager\04. ProtoTypeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDebugLineHelper.cpp">
+      <Filter>00. Manager\05. DebugLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRendererManager.cpp">
+      <Filter>00. Manager\07. RenderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGraphicDev.cpp">
+      <Filter>00. Manager\99. GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRectCol.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\01. RectCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlaneColl.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\03. PlaneCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Geometry.cpp">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GeometryHelper.cpp">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IndexBuffer.cpp">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShaderConstantBuffer.cpp">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VertexBuffer.cpp">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTerrainTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\01. TerrainTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRecTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\00. RecTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCubeTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\02. CubeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTriCol.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\00. CTriCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CVIBuffer.cpp">
+      <Filter>01. Component\00. VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICameraState.cpp">
+      <Filter>01. Component\03. Camera\ICameraState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_FirstPerson.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\01. FirstPerson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_ThirdPerson.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\02. ThirdPerson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMoveMent.cpp">
+      <Filter>01. Component\02. MoveMent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CComponent.cpp">
+      <Filter>01. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGameObject.cpp">
+      <Filter>02. ManageMent\02. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLayer.cpp">
+      <Filter>02. ManageMent\00. Scene\01. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CManagement.cpp">
+      <Filter>02. ManageMent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CScene.cpp">
+      <Filter>02. ManageMent\00. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTransform.cpp">
+      <Filter>01. Component\01. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCubeCol.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\02. CubeCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCubeNetTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\03. CubeNetTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCamera.cpp">
+      <Filter>01. Component\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTexture.cpp">
+      <Filter>03. Resource\00. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSkyCube.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\04. SKyCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTileManager.cpp">
+      <Filter>00. Manager\09. CTileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_UIMode.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\03. UIMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CColliderBase.cpp">
+      <Filter>01. Component\04. Collider\00. ColliderBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CAAABBB.cpp">
+      <Filter>01. Component\04. Collider\02. AAABBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\COBB.cpp">
+      <Filter>01. Component\04. Collider\03. OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSphere.cpp">
+      <Filter>01. Component\04. Collider\04. Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CollisionFunc.cpp">
+      <Filter>00. Manager\10. CollisionManager\CollisionFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIRecTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\05. CUiRecTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTileTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\06. TileTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CAABB.cpp">
+      <Filter>01. Component\04. Collider\01. AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTerrainCol.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\04. TerrainCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_EffectToolMode.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\99. EffectToolMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_ToolMode.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\100. MapToolMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGridCol.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\05. GridCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCenterLineCol.cpp">
+      <Filter>01. Component\00. VIBuffer\Color\06. CenterLineCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlane.cpp">
+      <Filter>00. Manager\12. PlaneManager\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIManager.cpp">
+      <Filter>00. Manager\15. UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDebugLine.cpp">
+      <Filter>00. Manager\05. DebugLine\CDebugLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectManager.cpp">
+      <Filter>00. Manager\20. ObjectManager\Static_ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonster.cpp">
+      <Filter>02. ManageMent\02. GameObject\03. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectPoolingManager.cpp">
+      <Filter>00. Manager\20. ObjectManager\Dynamic_ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleRecTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\07. ParticleRecTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBillboard.cpp">
+      <Filter>01. Component\05. Object Component\00. BillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCollisionManager.cpp">
+      <Filter>00. Manager\10. CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CToolBufferRect.cpp">
+      <Filter>02. ManageMent\02. GameObject\01. CToolBufferRect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CAnimation.cpp">
+      <Filter>03. Resource\01. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStatus.cpp">
+      <Filter>01. Component\05. Object Component\01. Status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CHoverItem.cpp">
+      <Filter>01. Component\05. Object Component\02. Hover Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTriggerEventManager.cpp">
+      <Filter>00. Manager\11. EventManager\00. TriggerEventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEventBus.cpp">
+      <Filter>00. Manager\11. EventManager\02. Event Bus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticle.cpp">
+      <Filter>02. ManageMent\04. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleOnFloorRecTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\08. ParticleOnFloorRecTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CToolBufferCube.cpp">
+      <Filter>02. ManageMent\02. GameObject\02. CToolBufferCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCubeManager.cpp">
+      <Filter>00. Manager\18. CubeManager\00. Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCollisionEventManager.cpp">
+      <Filter>00. Manager\11. EventManager\01. CollisionEventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDoorSystem.cpp">
+      <Filter>04. ObjectSystem\05. DoorSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSystemManager.cpp">
+      <Filter>04. ObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCombatSystem.cpp">
+      <Filter>04. ObjectSystem\01. CombatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRoomSystem.cpp">
+      <Filter>04. ObjectSystem\06. RoomSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSoundSystem.cpp">
+      <Filter>04. ObjectSystem\04. SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCameraSystem.cpp">
+      <Filter>04. ObjectSystem\08. CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_Shake.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\05. ShakeMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWeaponController.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTimeSystem.cpp">
+      <Filter>04. ObjectSystem\09. TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUISystem.cpp">
+      <Filter>04. ObjectSystem\00. UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSceneManager.cpp">
+      <Filter>00. Manager\21. SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUITileTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\05. CUiRecTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeaponState.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCube.cpp">
+      <Filter>00. Manager\18. CubeManager\00. Cube\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolCube.cpp">
+      <Filter>00. Manager\18. CubeManager\00. Cube\Cube\MapToolCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEventCube.cpp">
+      <Filter>00. Manager\18. CubeManager\00. Cube\EventCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTile.cpp">
+      <Filter>00. Manager\09. CTileManager\CTile\CTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolTile.cpp">
+      <Filter>00. Manager\09. CTileManager\CTile\CMapToolTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_IceWand.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\03. Weapon_IceWand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBullet.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_FireWand.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\04. Weapon_FireWand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Gun.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\02. Weapon_Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Goblin_FireBall.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\01. Goblin_FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFontManager.cpp">
+      <Filter>00. Manager\16. FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLightManager.cpp">
+      <Filter>00. Manager\17. LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLight.cpp">
+      <Filter>00. Manager\17. LightManager\CLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFont.cpp">
+      <Filter>00. Manager\16. FontManager\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDoor_Component.cpp">
+      <Filter>01. Component\05. Object Component\03. Door Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInputSystem.cpp">
+      <Filter>04. ObjectSystem\10. InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItemSystem.cpp">
+      <Filter>04. ObjectSystem\11. ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObjectManager.cpp">
+      <Filter>00. Manager\22. MapObjectManager\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObjectTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\09. GroundTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObject.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\00. CMapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDecor.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\00. Decor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObstacle.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\02. CObstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWallDecor.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\03. WallDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolMapObject.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\00. CMapToolMapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolDecor.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\01. CMapToolDecor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolObstacle.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\02. CMapToolObstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolEventObject.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\03. CMapToolEventObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEnumStringFunction.cpp">
+      <Filter>05. Function\00. EnumStringFuntion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPathFunction.cpp">
+      <Filter>05. Function\01. PathFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CResourceBase.cpp">
+      <Filter>00. Manager\08. ResourceManager\ResourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CResourceManager.cpp">
+      <Filter>00. Manager\08. ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItem.cpp">
+      <Filter>02. ManageMent\06. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItem.cpp" />
+    <ClCompile Include="..\Code\CMonsterSystem.cpp">
+      <Filter>04. ObjectSystem\03. MonsterSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWallet.cpp">
+      <Filter>01. Component\05. Object Component\05. Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_FireRing.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\05. Weapon_FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Mace.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\01. Weapon_Mace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\JsonFunction.cpp">
+      <Filter>05. Function\02. JsonFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Header\CGroundDecor.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\02. GroundDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEventObject.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\00. EventObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItem.cpp">
+      <Filter>02. ManageMent\06. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInteractable.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\01. Interactable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFlagUtil.cpp">
+      <Filter>05. Function\03. FlagUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleRecTex_Alpha.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\11. ParticleRecTex_Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDropItem.cpp">
+      <Filter>01. Component\05. Object Component\06. Drop Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSoundManager.cpp">
+      <Filter>00. Manager\13 CSoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMaterial.cpp">
+      <Filter>03. Resource\02. Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartitionHelper.cpp">
+      <Filter>00. Manager\23. PartitionManager\CirclePartitionHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Boss_IceBall.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\01. IceBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Boss_IcePillar.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\02. IcePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Boss_Thunder_Drop.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\03. Thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Boss_Wind.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\04. Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossAppearMeshTex.cpp">
+      <Filter>01. Component\00. VIBuffer\Text\12. BossAppearMeshTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI.cpp">
+      <Filter>00. Manager\15. UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolItem.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\04. CMapToolItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMeshAnimation.cpp">
+      <Filter>03. Resource\01. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectIDMaker.cpp">
+      <Filter>00. Manager\20. ObjectManager\Static_ObjectManager\ObjectIDMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPartitionManager.cpp">
+      <Filter>00. Manager\23. PartitionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBarrier.cpp">
+      <Filter>01. Component\05. Object Component\07. Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInteractionSystem.cpp">
+      <Filter>04. ObjectSystem\12. InteractionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossSystem.cpp">
+      <Filter>04. ObjectSystem\07. BossSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_BossIntro.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\06. BossIntroCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInteractionSystem.cpp">
+      <Filter>04. ObjectSystem\12. InteractionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Bush.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\01.Bush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Sparkle.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\02. Sparkle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Barrel.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\03. Barrel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Blood.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\04. Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Rain.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\05. Rain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEventCubeSystem.cpp">
+      <Filter>04. ObjectSystem\13. EventCubeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolMonster.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\05. CMapToolMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolDoor.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\06. CMapToolDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFog.cpp">
+      <Filter>02. ManageMent\07. Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFogSystem.cpp">
+      <Filter>02. ManageMent\07. Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapToolLight.cpp">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\07. CMapToolLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLightObject.cpp">
+      <Filter>02. ManageMent\08. LightObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Eat.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\07. Eat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Book.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\06. Book</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Orge_Axe.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\04. Orge_Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Goblin_Hammer.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\05. Goblin_Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Rat.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\06. Rat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Skeleton_Sword.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\07. Skeleton_Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_Bone.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\08. Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeOfChaos.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos\00. EyeOfChaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeOfChaos_Eye.cpp">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos\02. EyeOfChaos_Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeOfChaosSystem.cpp">
+      <Filter>04. ObjectSystem\14, EyeOfChaosSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossEffectAnimation.cpp">
+      <Filter>03. Resource\01. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IWeapon_Wizard.cpp">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\08. Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBuff.cpp">
+      <Filter>02. ManageMent\02. GameObject\05. Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CScoreBoard.cpp" />
+    <ClCompile Include="..\Code\ICam_BossOrbital.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\15. BossOrbitalCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_Zoom.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\08. ZoomMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_TargetMode.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\09. TargetCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCameraManager.cpp">
+      <Filter>00. Manager\06. CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CreatureCantGoCube.cpp">
+      <Filter>00. Manager\18. CubeManager\00. Cube\CreatureCantGoCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossAppearEffect.cpp">
+      <Filter>02. ManageMent\02. GameObject\03. Monster\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonster_Boss.cpp">
+      <Filter>02. ManageMent\02. GameObject\03. Monster\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonster_Clone_Boss.cpp">
+      <Filter>02. ManageMent\02. GameObject\03. Monster\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CActionCamera_Helper.cpp">
+      <Filter>04. ObjectSystem\08. CameraSystem\ActionCamera_Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticleSystem_BrokenCube.cpp">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\09. BrokenCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_OrbitalCam.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\07. OrbitalCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ICam_ZoomOutMode.cpp">
+      <Filter>01. Component\03. Camera\ICameraState\10. ZoomOutMode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\CTime.h">
+      <Filter>00. Manager\01. TimeManager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTimeManager.h">
+      <Filter>00. Manager\01. TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInputManager.h">
+      <Filter>00. Manager\02. InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFrame.h">
+      <Filter>00. Manager\03. FrameManager\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFrameManager.h">
+      <Filter>00. Manager\03. FrameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CProtoTypeManager.h">
+      <Filter>00. Manager\04. ProtoTypeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDebugLineHelper.h">
+      <Filter>00. Manager\05. DebugLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRendererManager.h">
+      <Filter>00. Manager\07. RenderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCameraManager.h">
+      <Filter>00. Manager\06. CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGraphicDev.h">
+      <Filter>00. Manager\99. GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRectCol.h">
+      <Filter>01. Component\00. VIBuffer\Color\01. RectCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCubeCol.h">
+      <Filter>01. Component\00. VIBuffer\Color\02. CubeCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlaneColl.h">
+      <Filter>01. Component\00. VIBuffer\Color\03. PlaneCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Geometry.h">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GeometryHelper.h">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IndexBuffer.h">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShaderConstantBuffer.h">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VertexBuffer.h">
+      <Filter>01. Component\00. VIBuffer\RookissBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTerrainTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\01. TerrainTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRecTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\00. RecTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCubeTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\02. CubeTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCubeNetTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\03. CubeNetTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTriCol.h">
+      <Filter>01. Component\00. VIBuffer\Color\00. CTriCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CVIBuffer.h">
+      <Filter>01. Component\00. VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICameraState.h">
+      <Filter>01. Component\03. Camera\ICameraState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_FirstPerson.h">
+      <Filter>01. Component\03. Camera\ICameraState\01. FirstPerson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_ThirdPerson.h">
+      <Filter>01. Component\03. Camera\ICameraState\02. ThirdPerson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMoveMent.h">
+      <Filter>01. Component\02. MoveMent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CComponent.h">
+      <Filter>01. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLayer.h">
+      <Filter>02. ManageMent\00. Scene\01. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CManagement.h">
+      <Filter>02. ManageMent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CScene.h">
+      <Filter>02. ManageMent\00. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTransform.h">
+      <Filter>01. Component\01. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Function.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Macro.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Typedef.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCamera.h">
+      <Filter>01. Component\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTexture.h">
+      <Filter>03. Resource\00. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSkyCube.h">
+      <Filter>01. Component\00. VIBuffer\Text\04. SKyCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTileManager.h">
+      <Filter>00. Manager\09. CTileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_UIMode.h">
+      <Filter>01. Component\03. Camera\ICameraState\03. UIMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CColliderBase.h">
+      <Filter>01. Component\04. Collider\00. ColliderBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CAAABBB.h">
+      <Filter>01. Component\04. Collider\02. AAABBB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\COBB.h">
+      <Filter>01. Component\04. Collider\03. OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSphere.h">
+      <Filter>01. Component\04. Collider\04. Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CollisionFunc.h">
+      <Filter>00. Manager\10. CollisionManager\CollisionFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIRecTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\05. CUiRecTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTileTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\06. TileTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CAABB.h">
+      <Filter>01. Component\04. Collider\01. AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTerrainCol.h">
+      <Filter>01. Component\00. VIBuffer\Color\04. TerrainCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_EffectToolMode.h">
+      <Filter>01. Component\03. Camera\ICameraState\99. EffectToolMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_ToolMode.h">
+      <Filter>01. Component\03. Camera\ICameraState\100. MapToolMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGridCol.h">
+      <Filter>01. Component\00. VIBuffer\Color\05. GridCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCenterLineCol.h">
+      <Filter>01. Component\00. VIBuffer\Color\06. CenterLineCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDebugLine.h">
+      <Filter>00. Manager\05. DebugLine\CDebugLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIManager.h">
+      <Filter>00. Manager\15. UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectManager.h">
+      <Filter>00. Manager\20. ObjectManager\Static_ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectPoolingManager.h">
+      <Filter>00. Manager\20. ObjectManager\Dynamic_ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonster.h">
+      <Filter>02. ManageMent\02. GameObject\03. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBillboard.h">
+      <Filter>01. Component\05. Object Component\00. BillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleRecTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\07. ParticleRecTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCollisionManager.h">
+      <Filter>00. Manager\10. CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CToolBufferRect.h">
+      <Filter>02. ManageMent\02. GameObject\01. CToolBufferRect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CToolBufferCube.h">
+      <Filter>02. ManageMent\02. GameObject\02. CToolBufferCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCubeManager.h">
+      <Filter>00. Manager\18. CubeManager\00. Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CAnimation.h">
+      <Filter>03. Resource\01. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CStatus.h">
+      <Filter>01. Component\05. Object Component\01. Status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CHoverItem.h">
+      <Filter>01. Component\05. Object Component\02. Hover Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTriggerEventManager.h">
+      <Filter>00. Manager\11. EventManager\00. TriggerEventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEventBus.h">
+      <Filter>00. Manager\11. EventManager\02. Event Bus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticle.h">
+      <Filter>02. ManageMent\04. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem.h">
+      <Filter>02. ManageMent\05. ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleOnFloorRecTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\08. ParticleOnFloorRecTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCollisionEventManager.h">
+      <Filter>00. Manager\11. EventManager\01. CollisionEventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDoorSystem.h">
+      <Filter>04. ObjectSystem\05. DoorSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSystemManager.h">
+      <Filter>04. ObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCombatSystem.h">
+      <Filter>04. ObjectSystem\01. CombatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRoomSystem.h">
+      <Filter>04. ObjectSystem\06. RoomSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSoundSystem.h">
+      <Filter>04. ObjectSystem\04. SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCameraSystem.h">
+      <Filter>04. ObjectSystem\08. CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_Shake.h">
+      <Filter>01. Component\03. Camera\ICameraState\05. ShakeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUISystem.h">
+      <Filter>04. ObjectSystem\00. UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWeaponController.h">
+      <Filter>01. Component\05. Object Component\04. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUITileTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\05. CUiRecTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTimeSystem.h">
+      <Filter>04. ObjectSystem\09. TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSceneManager.h">
+      <Filter>00. Manager\21. SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeaponState.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolCube.h">
+      <Filter>00. Manager\18. CubeManager\00. Cube\Cube\MapToolCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEventCube.h">
+      <Filter>00. Manager\18. CubeManager\00. Cube\EventCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTile.h">
+      <Filter>00. Manager\09. CTileManager\CTile\CTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolTile.h">
+      <Filter>00. Manager\09. CTileManager\CTile\CMapToolTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_IceWand.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\03. Weapon_IceWand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBullet.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_FireWand.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\04. Weapon_FireWand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Gun.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\02. Weapon_Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Goblin_FireBall.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\01. Goblin_FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFontManager.h">
+      <Filter>00. Manager\16. FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLightManager.h">
+      <Filter>00. Manager\17. LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLight.h">
+      <Filter>00. Manager\17. LightManager\CLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFont.h">
+      <Filter>00. Manager\16. FontManager\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDoor_Component.h">
+      <Filter>01. Component\05. Object Component\03. Door Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CInputSystem.h">
+      <Filter>04. ObjectSystem\10. InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CItemSystem.h">
+      <Filter>04. ObjectSystem\11. ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObjectManager.h">
+      <Filter>00. Manager\22. MapObjectManager\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObjectTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\09. GroundTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\00. CMapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGameObject.h">
+      <Filter>02. ManageMent\02. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDecor.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\00. Decor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGroundDecor.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\02. GroundDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObstacle.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\02. CObstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWallDecor.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\03. WallDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolMapObject.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\00. CMapToolMapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolDecor.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\01. CMapToolDecor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolObstacle.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\02. CMapToolObstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolEventObject.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\03. CMapToolEventObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEnumStringFunction.h">
+      <Filter>05. Function\00. EnumStringFuntion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPathFunction.h">
+      <Filter>05. Function\01. PathFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CResourceManager.h">
+      <Filter>00. Manager\08. ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CResourceBase.h">
+      <Filter>00. Manager\08. ResourceManager\ResourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CItem.h">
+      <Filter>02. ManageMent\06. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CItem.h" />
+    <ClInclude Include="..\Header\CMonsterSystem.h">
+      <Filter>04. ObjectSystem\03. MonsterSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWallet.h">
+      <Filter>01. Component\05. Object Component\05. Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_FireRing.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\05. Weapon_FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Mace.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\01. Weapon_Mace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\JsonFunction.h">
+      <Filter>05. Function\02. JsonFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEventObject.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\00. EventObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CItem.h">
+      <Filter>02. ManageMent\06. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInteractable.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\01. Interactable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFlagUtil.h">
+      <Filter>05. Function\03. FlagUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleRecTex_Alpha.h">
+      <Filter>01. Component\00. VIBuffer\Text\11. ParticleRecTex_Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDropItem.h">
+      <Filter>01. Component\05. Object Component\06. Drop Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSoundManager.h">
+      <Filter>00. Manager\13 CSoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMaterial.h">
+      <Filter>03. Resource\02. Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PartitionHelper.h">
+      <Filter>00. Manager\23. PartitionManager\CirclePartitionHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Boss_IceBall.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\01. IceBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Boss_IcePillar.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\02. IcePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Boss_Thunder_Drop.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\03. Thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Boss_Wind.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\04. Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossAppearMeshTex.h">
+      <Filter>01. Component\00. VIBuffer\Text\12. BossAppearMeshTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI.h">
+      <Filter>00. Manager\15. UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolItem.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\04. CMapToolItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMeshAnimation.h">
+      <Filter>03. Resource\01. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Header\CObjectIDMaker.h">
+      <Filter>00. Manager\20. ObjectManager\Static_ObjectManager\ObjectIDMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPartitionManager.h">
+      <Filter>00. Manager\23. PartitionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBarrier.h">
+      <Filter>01. Component\05. Object Component\07. Barrier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInteractionSystem.h">
+      <Filter>04. ObjectSystem\12. InteractionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossSystem.h">
+      <Filter>04. ObjectSystem\07. BossSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_BossIntro.h">
+      <Filter>01. Component\03. Camera\ICameraState\06. BossIntroCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCube.h">
+      <Filter>00. Manager\18. CubeManager\00. Cube\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInteractionSystem.h">
+      <Filter>04. ObjectSystem\12. InteractionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Bush.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\01.Bush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Sparkle.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\02. Sparkle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Barrel.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\03. Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Blood.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\04. Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Rain.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\05. Rain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEventCubeSystem.h">
+      <Filter>04. ObjectSystem\13. EventCubeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolMonster.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\05. CMapToolMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolDoor.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\06. CMapToolDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFog.h">
+      <Filter>02. ManageMent\07. Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFogSystem.h">
+      <Filter>02. ManageMent\07. Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapToolLight.h">
+      <Filter>00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\07. CMapToolLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLightObject.h">
+      <Filter>02. ManageMent\08. LightObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Book.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\06. Book</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Eat.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\07. Eat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Orge_Axe.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\04. Orge_Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Goblin_Hammer.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\05. Goblin_Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Rat.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\06. Rat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Skeleton_Sword.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\07. Skeleton_Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_Bone.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\08. Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeOfChaos.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos\00. EyeOfChaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeOfChaos_Eye.h">
+      <Filter>02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos\02. EyeOfChaos_Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeOfChaosSystem.h">
+      <Filter>04. ObjectSystem\14, EyeOfChaosSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossEffectAnimation.h">
+      <Filter>03. Resource\01. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IWeapon_Wizard.h">
+      <Filter>01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\08. Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBuff.h">
+      <Filter>02. ManageMent\02. GameObject\05. Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CScoreBoard.h" />
+    <ClInclude Include="..\Header\ICam_BossOrbital.h">
+      <Filter>01. Component\03. Camera\ICameraState\15. BossOrbitalCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_Zoom.h">
+      <Filter>01. Component\03. Camera\ICameraState\08. ZoomMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_TargetMode.h">
+      <Filter>01. Component\03. Camera\ICameraState\09. TargetCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CreatureCantGoCube.h">
+      <Filter>00. Manager\18. CubeManager\00. Cube\CreatureCantGoCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossAppearEffect.h">
+      <Filter>02. ManageMent\02. GameObject\03. Monster\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonster_Boss.h">
+      <Filter>02. ManageMent\02. GameObject\03. Monster\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonster_Clone_Boss.h">
+      <Filter>02. ManageMent\02. GameObject\03. Monster\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CActionCamera_Helper.h">
+      <Filter>04. ObjectSystem\08. CameraSystem\ActionCamera_Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticleSystem_BrokenCube.h">
+      <Filter>02. ManageMent\05. ParticleSystem\EngineParticleSystem\09. BrokenCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_OrbitalCam.h">
+      <Filter>01. Component\03. Camera\ICameraState\07. OrbitalCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ICam_ZoomOutMode.h">
+      <Filter>01. Component\03. Camera\ICameraState\10. ZoomOutMode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00. Manager">
+      <UniqueIdentifier>{d30ab8ef-18d4-4248-a86b-98a82196cd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component">
+      <UniqueIdentifier>{635046e3-8ff8-4c68-b266-cde5edbb4383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent">
+      <UniqueIdentifier>{3c17ef7f-b123-4a87-9ba0-10794654a474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{4912f972-0cdd-4624-93a1-1bd5a31da17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\01. TimeManager">
+      <UniqueIdentifier>{8168cf5a-bc35-4456-a991-0d71a419fecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\02. InputManager">
+      <UniqueIdentifier>{ca26dbf4-567f-4e7d-9392-f29ad31628b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\03. FrameManager">
+      <UniqueIdentifier>{3c50afeb-513e-4afd-a96a-ba4da737ebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\03. FrameManager\Frame">
+      <UniqueIdentifier>{76cbc68e-4396-48fc-b393-7158c412eb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\04. ProtoTypeManager">
+      <UniqueIdentifier>{ea37776e-a52e-4b0d-9031-e1a732e50be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\05. DebugLine">
+      <UniqueIdentifier>{9ee3eeec-304d-4d2e-a6ff-0e2ae89f64e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\06. CameraManager">
+      <UniqueIdentifier>{99f7ed5e-0d46-4107-9076-a31518814719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\07. RenderManager">
+      <UniqueIdentifier>{0d9a5d36-11d5-4a7b-8f42-bd412ca2132b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\01. TimeManager\Time">
+      <UniqueIdentifier>{554369c6-f5ac-466e-b7d8-c412c3c9af89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\99. GraphicDev">
+      <UniqueIdentifier>{e8665403-6f2c-4abf-8fc1-701c77a2e663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer">
+      <UniqueIdentifier>{fdc226eb-12dc-4aff-9652-abaff92be36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color">
+      <UniqueIdentifier>{02ba19df-0530-4726-a866-8731b2be40ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\00. CTriCol">
+      <UniqueIdentifier>{d3927bd7-fdd9-4677-ad2a-ad2d3258b886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\01. RectCol">
+      <UniqueIdentifier>{8c7b7a99-f3ee-4964-9977-2fa27a73a720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\02. CubeCol">
+      <UniqueIdentifier>{571f1ad8-8183-4c04-abba-a7751178e448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\03. PlaneCol">
+      <UniqueIdentifier>{26c10589-27f8-4db2-b2e3-add9b7da3e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\RookissBuffer">
+      <UniqueIdentifier>{83f6c4b6-4390-4db5-8b8c-1b36d7fd89a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text">
+      <UniqueIdentifier>{8107efaf-c7bc-488b-ab05-a756df173f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\00. RecTex">
+      <UniqueIdentifier>{6c8dcbf4-4d53-4142-9af2-3f80726e81cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\01. TerrainTex">
+      <UniqueIdentifier>{01439ea4-95f7-4150-b70e-5ac5c653bfed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\02. CubeTex">
+      <UniqueIdentifier>{d8f7dd43-f700-4949-b6f9-1c9ae54025e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\03. CubeNetTex">
+      <UniqueIdentifier>{2bde4720-4d69-47b0-9e04-a5438d702044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\01. Transform">
+      <UniqueIdentifier>{4a05576e-888d-4f37-9f67-8fb55576bc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\02. MoveMent">
+      <UniqueIdentifier>{1e56bba1-43d4-494a-9264-0672f07a197d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera">
+      <UniqueIdentifier>{c2f67832-321b-4149-be4f-94b356910f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState">
+      <UniqueIdentifier>{8743e72b-980c-4c4d-9921-3f03eae12542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\01. FirstPerson">
+      <UniqueIdentifier>{c8d0212e-d345-4e38-92dd-9a7c1875be6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\02. ThirdPerson">
+      <UniqueIdentifier>{910b1ecc-3ec1-4eba-8c4a-157ea383b4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\00. Scene">
+      <UniqueIdentifier>{0b402642-5cd3-4c6d-9ce4-69fbacda6efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject">
+      <UniqueIdentifier>{7c51608c-4e3c-44e2-a825-d9e4fcec97d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\08. ResourceManager">
+      <UniqueIdentifier>{31b437ec-5fcb-4829-8bc2-df8448ce6bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\08. ResourceManager\ResourceBase">
+      <UniqueIdentifier>{fc41dc33-979a-42f3-8025-d574fe966d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource">
+      <UniqueIdentifier>{69d5014c-a8f8-4287-b445-1fb63cef07da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\04. SKyCube">
+      <UniqueIdentifier>{517251e0-c32c-43db-aacb-2e5ffd42c043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\09. CTileManager">
+      <UniqueIdentifier>{662b0d32-65d6-4400-9eee-cd5ffe096e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\09. CTileManager\CTile">
+      <UniqueIdentifier>{20ff9bee-3ee5-4c34-b1a3-ba96a17383b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\03. UIMode">
+      <UniqueIdentifier>{9e44031a-3f1c-471f-a571-0549a6aa3f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\10. CollisionManager">
+      <UniqueIdentifier>{01ecce6e-b0e1-48e3-a5c8-213bb08d48df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\04. Collider">
+      <UniqueIdentifier>{bc31011a-4c8c-49f9-8017-43d0fbc941e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\04. ObserveMode">
+      <UniqueIdentifier>{2f1cb50e-3ac3-4056-90d2-7d167a645ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\10. CollisionManager\CollisionFunc">
+      <UniqueIdentifier>{a5060574-b98b-4b47-bea0-f26fbb1faadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\05. CUiRecTex">
+      <UniqueIdentifier>{dabf06eb-0ad9-4d20-a1b4-9e86184836d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\11. EventManager">
+      <UniqueIdentifier>{79e5c9c0-eacc-495a-88b4-f3104c280f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\04. Collider\02. AAABBB">
+      <UniqueIdentifier>{5da6ea25-2a66-4eed-a971-db3e0bcec56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\04. Collider\01. AABB">
+      <UniqueIdentifier>{169a5665-bef3-407f-b345-05b4e5d6bc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\04. Collider\00. ColliderBase">
+      <UniqueIdentifier>{1b84c21c-e7e8-4044-9c2c-d7224d1caccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\04. Collider\03. OBB">
+      <UniqueIdentifier>{71cd17f5-f0c4-44b7-b4c5-c14b77aabff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\04. Collider\04. Sphere">
+      <UniqueIdentifier>{5265196e-f3ae-4232-88d6-59b30f4336eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\06. TileTex">
+      <UniqueIdentifier>{9b64a3ed-7dc7-492d-a793-8326b466824f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\04. TerrainCol">
+      <UniqueIdentifier>{1080b0db-aa95-4c46-9ef5-7ab178613e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\05. GridCol">
+      <UniqueIdentifier>{9beaec26-4bd3-4e49-8340-7741141eae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Color\06. CenterLineCol">
+      <UniqueIdentifier>{45b42590-c453-4966-828f-a7a2e933bb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\12. PlaneManager">
+      <UniqueIdentifier>{bae09427-04e0-4e2a-b0ab-20d5df6fe3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\12. PlaneManager\Plane">
+      <UniqueIdentifier>{8a4d3ae5-9ec2-454f-9eb6-36c2b1d2b86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\05. DebugLine\CDebugLine">
+      <UniqueIdentifier>{dc974182-237e-4f10-9d8e-4a94dd910770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\15. UIManager">
+      <UniqueIdentifier>{0c228a6e-fd07-4069-81ef-7cbc9d02a4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\20. ObjectManager">
+      <UniqueIdentifier>{8f3bdb38-d1b8-40ac-a068-eb5232120730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\20. ObjectManager\Static_ObjectManager">
+      <UniqueIdentifier>{facbc577-4136-4f86-8aa3-41c170ce740e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\20. ObjectManager\Dynamic_ObjectManager">
+      <UniqueIdentifier>{e218f618-bf13-4298-bcfd-a214e1769226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\16. FontManager">
+      <UniqueIdentifier>{f191d774-ee34-4ef9-b59f-3663f9bf1d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\17. LightManager">
+      <UniqueIdentifier>{73883a66-cf82-4953-b499-532911d5a59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\07. ParticleRecTex">
+      <UniqueIdentifier>{e7337fd9-6d99-48f2-aa62-bee6d8e79da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\01. CToolBufferRect">
+      <UniqueIdentifier>{d120ad0d-eaf8-4ba3-afbd-e13242216358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\00. Texture">
+      <UniqueIdentifier>{e285faad-d6d3-49ed-9b92-cb6f58423fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\01. Animation">
+      <UniqueIdentifier>{f879b5bc-3c19-435d-9c51-950916a09fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component">
+      <UniqueIdentifier>{8a777cdd-decd-4160-8369-79b2981a2a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\00. BillBoard">
+      <UniqueIdentifier>{32477fde-04ce-432a-8dfc-0ab3d74d79a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\01. Status">
+      <UniqueIdentifier>{cb8752f0-2edf-49ea-8235-3df212cf6fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\02. Hover Item">
+      <UniqueIdentifier>{d31b686f-0476-4087-ac33-6b24988aacd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\11. EventManager\00. TriggerEventManager">
+      <UniqueIdentifier>{41770354-ff59-4f5e-b362-ccbac82d4d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\11. EventManager\01. CollisionEventManager">
+      <UniqueIdentifier>{4eb697d7-448c-4731-81a9-4c5561627d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\11. EventManager\02. Event Bus">
+      <UniqueIdentifier>{73694945-7873-46e3-9c53-4c6b1e32c6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\04. Particle">
+      <UniqueIdentifier>{ea5ef98e-cd81-4c21-9cd1-754a04fa0839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem">
+      <UniqueIdentifier>{782d36f3-a5f1-4cf1-9fdc-347056a6ba78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\08. ParticleOnFloorRecTex">
+      <UniqueIdentifier>{50824554-a082-494f-853e-82db82ded0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\02. CToolBufferCube">
+      <UniqueIdentifier>{423b3adb-4c9f-416e-bc35-bf39680fe1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\18. CubeManager">
+      <UniqueIdentifier>{f52fabbd-570e-492c-9cf5-1368ac1847e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\18. CubeManager\00. Cube">
+      <UniqueIdentifier>{dce5a79c-578a-4770-897b-9a9b1499154f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem">
+      <UniqueIdentifier>{e787cdae-4b2b-43f3-bc7e-7fb38d58b484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\06. RoomSystem">
+      <UniqueIdentifier>{e5813777-129f-453d-953f-f3350c6455f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\00. UISystem">
+      <UniqueIdentifier>{6a2c1f21-5740-40f0-8b83-bd54d733a59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\01. CombatSystem">
+      <UniqueIdentifier>{ec56ee9f-2420-4f26-9b3c-c13221cf180c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\02. PlayerSystem">
+      <UniqueIdentifier>{29f259aa-aa4c-428d-a1e2-a5d0ca6b1340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\04. SoundSystem">
+      <UniqueIdentifier>{990ab563-f5bf-4901-8bca-48b0daca7eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\05. DoorSystem">
+      <UniqueIdentifier>{f47ad303-f9f4-42c9-b8a5-de4335684040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\08. CameraSystem">
+      <UniqueIdentifier>{f152e856-c030-440e-a610-52caac769a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\03. Door Component">
+      <UniqueIdentifier>{fe702972-4cc4-4940-991f-b219df66decd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\99. EffectToolMode">
+      <UniqueIdentifier>{40aa51fe-91f9-4597-8a77-65b6a9021e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\100. MapToolMode">
+      <UniqueIdentifier>{1b2de6b0-42df-4fe4-837c-48f1477caf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\05. ShakeMode">
+      <UniqueIdentifier>{e9a49ef2-d6c8-453c-b995-8b60ca59c038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon">
+      <UniqueIdentifier>{efd70f4e-1c5a-4a71-a868-ee819907d9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\09. TimeSystem">
+      <UniqueIdentifier>{06f0619c-9a97-494b-9c88-efe113d478d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\21. SceneManager">
+      <UniqueIdentifier>{324f79ea-9526-417e-99ac-2ec0c3e8ecfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState">
+      <UniqueIdentifier>{d8253373-4057-4064-bf77-9c1b33a82400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\CBullet">
+      <UniqueIdentifier>{05cb7a07-b303-4f3d-8134-6385f04abcbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player">
+      <UniqueIdentifier>{b7c17b41-aef6-4f5b-976c-8339181f7321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\01. Weapon_Mace">
+      <UniqueIdentifier>{d147573a-547b-4979-b465-e0f8a24a2bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\02. Weapon_Gun">
+      <UniqueIdentifier>{2c74dbe2-c406-4596-9160-ea6f43a20e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\03. Weapon_IceWand">
+      <UniqueIdentifier>{f1ed81a2-0e1d-478c-b97a-27d93cefbf65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\04. Weapon_FireWand">
+      <UniqueIdentifier>{f2ebb034-e795-4571-8683-fd35a8350bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\00. Player\05. Weapon_FireBall">
+      <UniqueIdentifier>{31718bbc-4ce2-4180-af17-431152facf70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster">
+      <UniqueIdentifier>{11440084-823c-4702-9696-f3f5e8c6b155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\02. Trap">
+      <UniqueIdentifier>{72a8172a-81be-4f3e-b129-0f3ba2c59b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\01. Goblin_FireBall">
+      <UniqueIdentifier>{456f9cba-6a24-4dcc-98af-fbca5b5ca869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02. Skelleton_SilverArrow">
+      <UniqueIdentifier>{a3d511a7-26a1-4832-8c91-28a0e2c19c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\03. Skelleton_GoldArrow">
+      <UniqueIdentifier>{d8a1bb46-b17f-48c3-a395-d7c0396e9998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\02. Trap\Trap_FireBall">
+      <UniqueIdentifier>{84716c69-6df2-4d73-9f76-b967a7a046a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\18. CubeManager\00. Cube\Cube">
+      <UniqueIdentifier>{ef84758e-7818-4a3e-b1be-d19051dea3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\18. CubeManager\00. Cube\Cube\MapToolCube">
+      <UniqueIdentifier>{faf0f1fb-bb9b-40c0-861b-91af5b6ffb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\18. CubeManager\00. Cube\EventCube">
+      <UniqueIdentifier>{8121b0f3-ee38-4b36-b802-3992924026ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\09. CTileManager\CTile\CMapToolTile">
+      <UniqueIdentifier>{3c2d4dea-8cf5-4e78-a9dc-d1b5589202cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\09. CTileManager\CTile\CTile">
+      <UniqueIdentifier>{53bc552f-1abd-4a94-98b8-f0a00eb4fcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager">
+      <UniqueIdentifier>{9709e942-09e3-4bd0-ae5d-bb900cfa9600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject">
+      <UniqueIdentifier>{2d228ed6-fe63-4823-85c1-19176d5f1959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject">
+      <UniqueIdentifier>{2318359a-eb0d-4dbb-9296-d315ece40854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\09. GroundTex">
+      <UniqueIdentifier>{7d4b2162-8332-4ad0-bd5c-4c055d42b65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\10. WallTex">
+      <UniqueIdentifier>{a00ae887-895a-40dd-b1db-6b247b52d653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\Mgr">
+      <UniqueIdentifier>{41507d4b-66dd-4dee-ba48-035d6f2d70c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\03. Monster">
+      <UniqueIdentifier>{8c46fc62-8be6-4592-88d9-bfbc7a517c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject">
+      <UniqueIdentifier>{5959ea14-a7d8-4cf1-aa93-d6f87a889f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject">
+      <UniqueIdentifier>{97c98bb9-49f2-435f-96a9-b6e67c71e1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\00. CMapObject">
+      <UniqueIdentifier>{f7977942-f621-4232-b1a3-cbd3fcede746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco">
+      <UniqueIdentifier>{dc728dc4-4249-4879-8ade-9e0b73ef3eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\02. CObstacle">
+      <UniqueIdentifier>{569fc8a5-f023-4f0d-91ce-79f7cd329295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\02. GroundDeco">
+      <UniqueIdentifier>{a7a5702f-d02f-4cf3-992a-5307a514388d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\00. Decor">
+      <UniqueIdentifier>{cb50561a-b35e-4aaf-a953-c5c49d9fe277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\01. CDeco\03. WallDeco">
+      <UniqueIdentifier>{be8958b3-678f-438c-9de2-37d15077b640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject">
+      <UniqueIdentifier>{9c8ca2a1-3929-4870-94bd-09d048ee2059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\00. CMapToolMapObject">
+      <UniqueIdentifier>{a0b623d8-df9a-4c29-b9e0-56e6e30a32ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\01. CMapToolDecor">
+      <UniqueIdentifier>{7cc801d2-e3cc-45ac-9093-962dc6124b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\02. CMapToolObstacle">
+      <UniqueIdentifier>{466079f6-0fbc-42c7-9cfd-0d71c85d99d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\03. CMapToolEventObject">
+      <UniqueIdentifier>{ccd39a8e-096f-4ecf-8621-f6fc945a6ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\17. LightManager\CLight">
+      <UniqueIdentifier>{5cad573e-5a9c-4f37-a4ac-b34ab870551d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\16. FontManager\Font">
+      <UniqueIdentifier>{b5ac486b-9638-410a-85a2-27547a51559e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\10. InputSystem">
+      <UniqueIdentifier>{f0a55e23-cda9-415b-a508-cd74227d3bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\11. ItemSystem">
+      <UniqueIdentifier>{81017d77-886e-41f4-a06e-e5c7c9fa99a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\06. Item">
+      <UniqueIdentifier>{68f328a7-9740-4b41-a182-d28018d86b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Function">
+      <UniqueIdentifier>{12f170e2-618c-45be-b2d1-31b2081d6966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Function\00. EnumStringFuntion">
+      <UniqueIdentifier>{e2654666-7894-412d-87e6-924d2a58fdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Function\01. PathFunction">
+      <UniqueIdentifier>{ac65eb31-d21a-4c8c-940a-0da8e911ecf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\05. Wallet">
+      <UniqueIdentifier>{e4899811-8513-4316-84e6-56bb61d24ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Function\02. JsonFunction">
+      <UniqueIdentifier>{ad5cc5a4-fecc-4e32-82bf-8ea26ee21bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\00. EventObject">
+      <UniqueIdentifier>{06baf3e6-84d3-4321-abb1-fca936ea7678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\01. Interactable">
+      <UniqueIdentifier>{998aae0d-c9b8-44ab-bb3d-685d24ebf261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Function\03. FlagUtil">
+      <UniqueIdentifier>{1a1faf96-f278-44f3-8db9-e76e2d9ae8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\11. ParticleRecTex_Alpha">
+      <UniqueIdentifier>{ac8ffe52-853f-41e1-93e4-ca47634dbb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\13 CSoundManager">
+      <UniqueIdentifier>{d620fdcf-cbec-4cf7-8bad-5adacf01a06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\06. Drop Item">
+      <UniqueIdentifier>{478574aa-9456-4f8f-b120-9eff4401da91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\02. Material">
+      <UniqueIdentifier>{70572c70-f730-4961-b3bf-99639bd7adf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\23. PartitionManager">
+      <UniqueIdentifier>{38966add-21e1-4851-9eb2-976ce21aabe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\23. PartitionManager\CirclePartitionHelper">
+      <UniqueIdentifier>{c09eda1f-5c82-4ff7-babf-bdaf362cd02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss">
+      <UniqueIdentifier>{a6139f22-a3a9-42e4-8151-e9ffb8638281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\01. IceBall">
+      <UniqueIdentifier>{d0ca6537-447d-4390-ad0d-5c4c8d1ed3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\02. IcePillar">
+      <UniqueIdentifier>{e82c9b4a-9b5d-4b31-b408-372d5e055ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\03. Thunder">
+      <UniqueIdentifier>{00f689f7-c573-477f-8f31-2c7ea28468c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\02.Boss\04. Wind">
+      <UniqueIdentifier>{e1701ada-7bf6-4f1c-8bd5-9738e7711216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. VIBuffer\Text\12. BossAppearMeshTex">
+      <UniqueIdentifier>{7f841528-ddad-4e5c-b832-118ecca6e696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\12. InteractionSystem">
+      <UniqueIdentifier>{39f2a25e-e047-42f4-bf9d-d69d3573f3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\04. CMapToolItem">
+      <UniqueIdentifier>{a654afb5-2608-4b7e-8672-a23cdb218c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\05. CMapToolMonster">
+      <UniqueIdentifier>{eac7e0d4-9c7a-4501-a602-cec2feb75771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\20. ObjectManager\Static_ObjectManager\ObjectIDMaker">
+      <UniqueIdentifier>{43a3c37f-79ed-441e-a5de-91b7898a124a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\07. Barrier">
+      <UniqueIdentifier>{c46eee24-1470-46e4-8d74-3d0a4436c7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\07. BossSystem">
+      <UniqueIdentifier>{f500b136-a40b-4157-a84c-2cb3d11a59fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\06. BossIntroCam">
+      <UniqueIdentifier>{7acad8de-9d4e-4db7-a0c7-7ae55cbdaccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\13. EventCubeSystem">
+      <UniqueIdentifier>{eab6beda-e2ec-46f5-94c6-c555fb029906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\07. Fog">
+      <UniqueIdentifier>{90047985-4f36-4deb-83c5-861b6abffd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\00. Scene\01. Layer">
+      <UniqueIdentifier>{1f0ce252-70f2-4bb4-a261-b956caf59463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem">
+      <UniqueIdentifier>{63edb183-7b1b-4561-b7c7-b85ff984033d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\01.Bush">
+      <UniqueIdentifier>{3048322f-adeb-410c-8583-527dd5d8d073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\02. Sparkle">
+      <UniqueIdentifier>{53b4221c-3feb-4b31-94d8-04379a52e156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\03. Barrel">
+      <UniqueIdentifier>{3b81fe85-0817-48e7-8c5f-d98589bdebbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\04. Blood">
+      <UniqueIdentifier>{5262fa32-7e54-4fe6-bd49-f0f0a4a60031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\06. Book">
+      <UniqueIdentifier>{84ef8a1e-5a05-4bfd-b2ad-a0b269f5314b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\05. Rain">
+      <UniqueIdentifier>{dfc879f1-7482-4850-8b37-bcc7baac7fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\13. EventCubeSystem">
+      <UniqueIdentifier>{eab6beda-e2ec-46f5-94c6-c555fb029906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\06. CMapToolDoor">
+      <UniqueIdentifier>{35db6df2-5613-4744-b101-eff07727a001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\07. Fog">
+      <UniqueIdentifier>{90047985-4f36-4deb-83c5-861b6abffd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\00. Scene\01. Layer">
+      <UniqueIdentifier>{1f0ce252-70f2-4bb4-a261-b956caf59463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\07. Eat">
+      <UniqueIdentifier>{de662088-11cf-4ffa-bad0-83b044bf4155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\22. MapObjectManager\MapObject\CMapToolMapObject\07. CMapToolLight">
+      <UniqueIdentifier>{1bf9fd6c-ddc0-4593-8edd-fec6f4725bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\08. LightObject">
+      <UniqueIdentifier>{aa9a2b12-ceef-4913-8b0c-151e91e9a74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos">
+      <UniqueIdentifier>{b02f2fa0-e68f-4245-b9d7-ea94e4a15c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos\00. EyeOfChaos">
+      <UniqueIdentifier>{ea0b8e85-1a74-4bd7-9d1b-b4ed236a171c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\04. MapObject\00. CMapObject\03. CEventObject\02. EyeOfChaos\02. EyeOfChaos_Eye">
+      <UniqueIdentifier>{8462e5de-a4d8-4ec1-ba0c-0474cede17db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\14, EyeOfChaosSystem">
+      <UniqueIdentifier>{954f7308-f288-4aae-96b2-9f0934b65f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\04. Orge_Axe">
+      <UniqueIdentifier>{57a3233b-95ab-47b8-b718-0b97a3008500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\05. Goblin_Hammer">
+      <UniqueIdentifier>{f5cdff78-81a9-41a5-87e0-3769bb64c3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\06. Rat">
+      <UniqueIdentifier>{688f40b6-0cf5-49e0-a435-c5cc8675cd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\08. Bone">
+      <UniqueIdentifier>{d3014ac7-24f0-4463-9d6f-5cfbfbc6b11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\07. Skeleton_Sword">
+      <UniqueIdentifier>{acb0e7a8-6e2e-4c6b-a0ab-2cdad6d81b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\05. Object Component\04. Weapon\IWeaponState\01. Monster\08. Wizard">
+      <UniqueIdentifier>{e88a0e1e-3f8c-4cf7-be39-8378274a6faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\05. Buff">
+      <UniqueIdentifier>{a74ab014-0f28-4113-abea-add44651c9e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\08. ZoomMode">
+      <UniqueIdentifier>{d6115c5d-5e13-4ac0-b041-524910ce13bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\09. TargetCam">
+      <UniqueIdentifier>{0907440c-3665-4c41-a548-6617020dbc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Manager\18. CubeManager\00. Cube\CreatureCantGoCube">
+      <UniqueIdentifier>{38f7895f-5c99-40d8-97db-be631dc6436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\02. GameObject\03. Monster\01. Boss">
+      <UniqueIdentifier>{0acfaa29-9c6e-4e48-a38a-1d590ccbfacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\03. MonsterSystem">
+      <UniqueIdentifier>{78ccfed4-1ee4-42e5-8abf-954b59fa343b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ObjectSystem\08. CameraSystem\ActionCamera_Helper">
+      <UniqueIdentifier>{b85b37bf-d407-4e1a-a8d1-956016204af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ManageMent\05. ParticleSystem\EngineParticleSystem\09. BrokenCube">
+      <UniqueIdentifier>{28fa2d0b-ddf4-4f31-abfb-5783a37e815b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\15. BossOrbitalCam">
+      <UniqueIdentifier>{85cb57c6-6758-4990-af62-adbb92975e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\07. OrbitalCam">
+      <UniqueIdentifier>{39184aac-0528-4fae-9fc7-214c62ceca4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\03. Camera\ICameraState\10. ZoomOutMode">
+      <UniqueIdentifier>{de41401f-0fa2-43b8-b931-b8be7c630040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+</Project>

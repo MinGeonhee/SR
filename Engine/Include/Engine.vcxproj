@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\CAAABBB.h" />
+    <ClInclude Include="..\Header\CAABB.h" />
+    <ClInclude Include="..\Header\CActionCamera_Helper.h" />
+    <ClInclude Include="..\Header\CAnimation.h" />
+    <ClInclude Include="..\Header\CBarrier.h" />
+    <ClInclude Include="..\Header\CBillboard.h" />
+    <ClInclude Include="..\Header\CBossAppearEffect.h" />
+    <ClInclude Include="..\Header\CBossAppearMeshTex.h" />
+    <ClInclude Include="..\Header\CBossEffectAnimation.h" />
+    <ClInclude Include="..\Header\CBossSystem.h" />
+    <ClInclude Include="..\Header\CBuff.h" />
+    <ClInclude Include="..\Header\CBullet.h" />
+    <ClInclude Include="..\Header\CCamera.h" />
+    <ClInclude Include="..\Header\CCameraManager.h" />
+    <ClInclude Include="..\Header\CCameraSystem.h" />
+    <ClInclude Include="..\Header\CCenterLineCol.h" />
+    <ClInclude Include="..\Header\CColliderBase.h" />
+    <ClInclude Include="..\Header\CCollisionEventManager.h" />
+    <ClInclude Include="..\Header\CCollisionManager.h" />
+    <ClInclude Include="..\Header\CCombatSystem.h" />
+    <ClInclude Include="..\Header\CComponent.h" />
+    <ClInclude Include="..\Header\CCube.h" />
+    <ClInclude Include="..\Header\CCubeCol.h" />
+    <ClInclude Include="..\Header\CCubeManager.h" />
+    <ClInclude Include="..\Header\CCubeNetTex.h" />
+    <ClInclude Include="..\Header\CCubeTex.h" />
+    <ClInclude Include="..\Header\CDebugLine.h" />
+    <ClInclude Include="..\Header\CDebugLineHelper.h" />
+    <ClInclude Include="..\Header\CDecor.h" />
+    <ClInclude Include="..\Header\CDoorSystem.h" />
+    <ClInclude Include="..\Header\CDoor_Component.h" />
+    <ClInclude Include="..\Header\CDropItem.h" />
+    <ClInclude Include="..\Header\CEnumStringFunction.h" />
+    <ClInclude Include="..\Header\CEventBus.h" />
+    <ClInclude Include="..\Header\CEventCube.h" />
+    <ClInclude Include="..\Header\CEventCubeSystem.h" />
+    <ClInclude Include="..\Header\CEventObject.h" />
+    <ClInclude Include="..\Header\CEyeOfChaos.h" />
+    <ClInclude Include="..\Header\CEyeOfChaosSystem.h" />
+    <ClInclude Include="..\Header\CEyeOfChaos_Eye.h" />
+    <ClInclude Include="..\Header\CFlagUtil.h" />
+    <ClInclude Include="..\Header\CFog.h" />
+    <ClInclude Include="..\Header\CFogSystem.h" />
+    <ClInclude Include="..\Header\CFont.h" />
+    <ClInclude Include="..\Header\CFontManager.h" />
+    <ClInclude Include="..\Header\CFrame.h" />
+    <ClInclude Include="..\Header\CFrameManager.h" />
+    <ClInclude Include="..\Header\CGameObject.h" />
+    <ClInclude Include="..\Header\CGraphicDev.h" />
+    <ClInclude Include="..\Header\CGridCol.h" />
+    <ClInclude Include="..\Header\CInteractable.h" />
+    <ClInclude Include="..\Header\CInteractionSystem.h" />
+    <ClInclude Include="..\Header\CLightObject.h" />
+    <ClInclude Include="..\Header\CMapObject.h" />
+    <ClInclude Include="..\Header\CMapObjectManager.h" />
+    <ClInclude Include="..\Header\CMapObjectTex.h" />
+    <ClInclude Include="..\Header\CHoverItem.h" />
+    <ClInclude Include="..\header\CInputSystem.h" />
+    <ClInclude Include="..\header\CItem.h" />
+    <ClInclude Include="..\Header\CItemSystem.h" />
+    <ClInclude Include="..\Header\CLayer.h" />
+    <ClInclude Include="..\Header\CLight.h" />
+    <ClInclude Include="..\Header\CLightManager.h" />
+    <ClInclude Include="..\Header\CManagement.h" />
+    <ClInclude Include="..\Header\CMapToolCube.h" />
+    <ClInclude Include="..\Header\CMapToolDecor.h" />
+    <ClInclude Include="..\Header\CMapToolDoor.h" />
+    <ClInclude Include="..\Header\CMapToolEventObject.h" />
+    <ClInclude Include="..\Header\CMapToolItem.h" />
+    <ClInclude Include="..\Header\CMapToolLight.h" />
+    <ClInclude Include="..\Header\CMapToolMapObject.h" />
+    <ClInclude Include="..\Header\CMapToolMonster.h" />
+    <ClInclude Include="..\Header\CMapToolObstacle.h" />
+    <ClInclude Include="..\Header\CMapToolTile.h" />
+    <ClInclude Include="..\Header\CMaterial.h" />
+    <ClInclude Include="..\Header\CMeshAnimation.h" />
+    <ClInclude Include="..\Header\CMonster.h" />
+    <ClInclude Include="..\Header\CMonsterSystem.h" />
+    <ClInclude Include="..\Header\CMonster_Boss.h" />
+    <ClInclude Include="..\Header\CMonster_Clone_Boss.h" />
+    <ClInclude Include="..\Header\CMoveMent.h" />
+    <ClInclude Include="..\Header\CInputManager.h" />
+    <ClInclude Include="..\Header\COBB.h" />
+    <ClInclude Include="..\Header\CObjectIDMaker.h" />
+    <ClInclude Include="..\Header\CObjectManager.h" />
+    <ClInclude Include="..\Header\CObjectPoolingManager.h" />
+    <ClInclude Include="..\Header\CObstacle.h" />
+    <ClInclude Include="..\Header\CollisionFunc.h" />
+    <ClInclude Include="..\Header\CParticle.h" />
+    <ClInclude Include="..\Header\CParticleOnFloorRecTex.h" />
+    <ClInclude Include="..\Header\CParticleRecTex.h" />
+    <ClInclude Include="..\Header\CParticleRecTex_Alpha.h" />
+    <ClInclude Include="..\Header\CParticleSystem.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Barrel.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Blood.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Bone.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Book.h" />
+    <ClInclude Include="..\Header\CParticleSystem_BrokenCube.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Bush.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Eat.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Rain.h" />
+    <ClInclude Include="..\Header\CParticleSystem_Sparkle.h" />
+    <ClInclude Include="..\Header\CPartitionManager.h" />
+    <ClInclude Include="..\Header\CPathFunction.h" />
+    <ClInclude Include="..\Header\CPlaneColl.h" />
+    <ClInclude Include="..\Header\CProtoTypeManager.h" />
+    <ClInclude Include="..\Header\CreatureCantGoCube.h" />
+    <ClInclude Include="..\Header\CRectCol.h" />
+    <ClInclude Include="..\Header\CRecTex.h" />
+    <ClInclude Include="..\Header\CRendererManager.h" />
+    <ClInclude Include="..\Header\CResourceBase.h" />
+    <ClInclude Include="..\Header\CResourceManager.h" />
+    <ClInclude Include="..\Header\CRoomSystem.h" />
+    <ClInclude Include="..\Header\CScene.h" />
+    <ClInclude Include="..\Header\CSceneManager.h" />
+    <ClInclude Include="..\Header\CScoreBoard.h" />
+    <ClInclude Include="..\Header\CSkyCube.h" />
+    <ClInclude Include="..\Header\CSoundManager.h" />
+    <ClInclude Include="..\Header\CSoundSystem.h" />
+    <ClInclude Include="..\Header\CSphere.h" />
+    <ClInclude Include="..\Header\CStatus.h" />
+    <ClInclude Include="..\Header\CSystemManager.h" />
+    <ClInclude Include="..\Header\CTerrainCol.h" />
+    <ClInclude Include="..\Header\CTerrainTex.h" />
+    <ClInclude Include="..\Header\CTexture.h" />
+    <ClInclude Include="..\Header\CTile.h" />
+    <ClInclude Include="..\Header\CTileManager.h" />
+    <ClInclude Include="..\Header\CTileTex.h" />
+    <ClInclude Include="..\Header\CTime.h" />
+    <ClInclude Include="..\Header\CTimeManager.h" />
+    <ClInclude Include="..\Header\CTimeSystem.h" />
+    <ClInclude Include="..\Header\CToolBufferCube.h" />
+    <ClInclude Include="..\Header\CToolBufferRect.h" />
+    <ClInclude Include="..\Header\CTransform.h" />
+    <ClInclude Include="..\Header\CTriggerEventManager.h" />
+    <ClInclude Include="..\Header\CTriCol.h" />
+    <ClInclude Include="..\Header\CUI.h" />
+    <ClInclude Include="..\Header\CUIManager.h" />
+    <ClInclude Include="..\Header\CUIRecTex.h" />
+    <ClInclude Include="..\Header\CUISystem.h" />
+    <ClInclude Include="..\Header\CUITileTex.h" />
+    <ClInclude Include="..\Header\CWallDecor.h" />
+    <ClInclude Include="..\Header\CWallet.h" />
+    <ClInclude Include="..\Header\CWeaponController.h" />
+    <ClInclude Include="..\Header\CGroundDecor.h" />
+    <ClInclude Include="..\Header\CVIBuffer.h" />
+    <ClInclude Include="..\Header\Engine_Define.h" />
+    <ClInclude Include="..\Header\Engine_Enum.h" />
+    <ClInclude Include="..\Header\Engine_Function.h" />
+    <ClInclude Include="..\Header\Engine_Macro.h" />
+    <ClInclude Include="..\Header\Engine_Struct.h" />
+    <ClInclude Include="..\Header\Engine_Typedef.h" />
+    <ClInclude Include="..\Header\Geometry.h" />
+    <ClInclude Include="..\Header\GeometryHelper.h" />
+    <ClInclude Include="..\Header\ICam_BossIntro.h" />
+    <ClInclude Include="..\Header\ICameraState.h" />
+    <ClInclude Include="..\Header\ICam_EffectToolMode.h" />
+    <ClInclude Include="..\Header\ICam_FirstPerson.h" />
+    <ClInclude Include="..\Header\ICam_BossOrbital.h" />
+    <ClInclude Include="..\Header\ICam_OrbitalCam.h" />
+    <ClInclude Include="..\Header\ICam_Shake.h" />
+    <ClInclude Include="..\Header\ICam_TargetMode.h" />
+    <ClInclude Include="..\Header\ICam_ToolMode.h" />
+    <ClInclude Include="..\Header\ICam_ThirdPerson.h" />
+    <ClInclude Include="..\Header\ICam_UIMode.h" />
+    <ClInclude Include="..\Header\ICam_Zoom.h" />
+    <ClInclude Include="..\Header\ICam_ZoomOutMode.h" />
+    <ClInclude Include="..\Header\IWeaponState.h" />
+    <ClInclude Include="..\Header\IWeapon_Boss_IceBall.h" />
+    <ClInclude Include="..\Header\IWeapon_Boss_IcePillar.h" />
+    <ClInclude Include="..\Header\IWeapon_Boss_Thunder_Drop.h" />
+    <ClInclude Include="..\Header\IWeapon_Boss_Wind.h" />
+    <ClInclude Include="..\Header\IWeapon_FireRing.h" />
+    <ClInclude Include="..\Header\IWeapon_FireWand.h" />
+    <ClInclude Include="..\Header\IWeapon_Goblin_FireBall.h" />
+    <ClInclude Include="..\Header\IWeapon_Goblin_Hammer.h" />
+    <ClInclude Include="..\Header\IWeapon_Gun.h" />
+    <ClInclude Include="..\Header\IWeapon_IceWand.h" />
+    <ClInclude Include="..\Header\IndexBuffer.h" />
+    <ClInclude Include="..\Header\IWeapon_Mace.h" />
+    <ClInclude Include="..\Header\IWeapon_Orge_Axe.h" />
+    <ClInclude Include="..\Header\IWeapon_Rat.h" />
+    <ClInclude Include="..\Header\IWeapon_Skeleton_Sword.h" />
+    <ClInclude Include="..\Header\IWeapon_Wizard.h" />
+    <ClInclude Include="..\Header\JsonFunction.h" />
+    <ClInclude Include="..\Header\PartitionHelper.h" />
+    <ClInclude Include="..\Header\ShaderConstantBuffer.h" />
+    <ClInclude Include="..\Header\VertexBuffer.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\CAAABBB.cpp" />
+    <ClCompile Include="..\Code\CAABB.cpp" />
+    <ClCompile Include="..\Code\CActionCamera_Helper.cpp" />
+    <ClCompile Include="..\Code\CAnimation.cpp" />
+    <ClCompile Include="..\Code\CBarrier.cpp" />
+    <ClCompile Include="..\Code\CBillboard.cpp" />
+    <ClCompile Include="..\Code\CBossAppearEffect.cpp" />
+    <ClCompile Include="..\Code\CBossAppearMeshTex.cpp" />
+    <ClCompile Include="..\Code\CBossEffectAnimation.cpp" />
+    <ClCompile Include="..\Code\CBossSystem.cpp" />
+    <ClCompile Include="..\Code\CBuff.cpp" />
+    <ClCompile Include="..\Code\CBullet.cpp" />
+    <ClCompile Include="..\Code\CCamera.cpp" />
+    <ClCompile Include="..\Code\CCameraManager.cpp" />
+    <ClCompile Include="..\Code\CCameraSystem.cpp" />
+    <ClCompile Include="..\Code\CCenterLineCol.cpp" />
+    <ClCompile Include="..\Code\CColliderBase.cpp" />
+    <ClCompile Include="..\Code\CCollisionEventManager.cpp" />
+    <ClCompile Include="..\Code\CCollisionManager.cpp" />
+    <ClCompile Include="..\Code\CCombatSystem.cpp" />
+    <ClCompile Include="..\Code\CComponent.cpp" />
+    <ClCompile Include="..\Code\CCube.cpp" />
+    <ClCompile Include="..\Code\CCubeCol.cpp" />
+    <ClCompile Include="..\Code\CCubeManager.cpp" />
+    <ClCompile Include="..\Code\CCubeNetTex.cpp" />
+    <ClCompile Include="..\Code\CCubeTex.cpp" />
+    <ClCompile Include="..\Code\CDebugLine.cpp" />
+    <ClCompile Include="..\Code\CDebugLineHelper.cpp" />
+    <ClCompile Include="..\Code\CDecor.cpp" />
+    <ClCompile Include="..\Code\CDoorSystem.cpp" />
+    <ClCompile Include="..\Code\CDoor_Component.cpp" />
+    <ClCompile Include="..\Code\CDropItem.cpp" />
+    <ClCompile Include="..\Code\CEnumStringFunction.cpp" />
+    <ClCompile Include="..\Code\CEventBus.cpp" />
+    <ClCompile Include="..\Code\CEventCube.cpp" />
+    <ClCompile Include="..\Code\CEventCubeSystem.cpp" />
+    <ClCompile Include="..\Code\CEventObject.cpp" />
+    <ClCompile Include="..\Code\CEyeOfChaos.cpp" />
+    <ClCompile Include="..\Code\CEyeOfChaosSystem.cpp" />
+    <ClCompile Include="..\Code\CEyeOfChaos_Eye.cpp" />
+    <ClCompile Include="..\Code\CFlagUtil.cpp" />
+    <ClCompile Include="..\Code\CFog.cpp" />
+    <ClCompile Include="..\Code\CFogSystem.cpp" />
+    <ClCompile Include="..\Code\CFont.cpp" />
+    <ClCompile Include="..\Code\CFontManager.cpp" />
+    <ClCompile Include="..\Code\CFrame.cpp" />
+    <ClCompile Include="..\Code\CFrameManager.cpp" />
+    <ClCompile Include="..\Code\CGameObject.cpp" />
+    <ClCompile Include="..\Code\CGraphicDev.cpp" />
+    <ClCompile Include="..\Code\CGridCol.cpp" />
+    <ClCompile Include="..\Code\CInteractable.cpp" />
+    <ClCompile Include="..\Code\CInteractionSystem.cpp" />
+    <ClCompile Include="..\Code\CLightObject.cpp" />
+    <ClCompile Include="..\Code\CMapObject.cpp" />
+    <ClCompile Include="..\Code\CMapObjectManager.cpp" />
+    <ClCompile Include="..\Code\CMapObjectTex.cpp" />
+    <ClCompile Include="..\Code\CHoverItem.cpp" />
+    <ClCompile Include="..\Code\CInputManager.cpp" />
+    <ClCompile Include="..\Code\CInputSystem.cpp" />
+    <ClCompile Include="..\Code\CItem.cpp" />
+    <ClCompile Include="..\Code\CItemSystem.cpp" />
+    <ClCompile Include="..\Code\CLayer.cpp" />
+    <ClCompile Include="..\Code\CLight.cpp" />
+    <ClCompile Include="..\Code\CLightManager.cpp" />
+    <ClCompile Include="..\Code\CManagement.cpp" />
+    <ClCompile Include="..\Code\CMapToolCube.cpp" />
+    <ClCompile Include="..\Code\CMapToolDecor.cpp" />
+    <ClCompile Include="..\Code\CMapToolDoor.cpp" />
+    <ClCompile Include="..\Code\CMapToolEventObject.cpp" />
+    <ClCompile Include="..\Code\CMapToolItem.cpp" />
+    <ClCompile Include="..\Code\CMapToolLight.cpp" />
+    <ClCompile Include="..\Code\CMapToolMapObject.cpp" />
+    <ClCompile Include="..\Code\CMapToolMonster.cpp" />
+    <ClCompile Include="..\Code\CMapToolObstacle.cpp" />
+    <ClCompile Include="..\Code\CMapToolTile.cpp" />
+    <ClCompile Include="..\Code\CMaterial.cpp" />
+    <ClCompile Include="..\Code\CMeshAnimation.cpp" />
+    <ClCompile Include="..\Code\CMonster.cpp" />
+    <ClCompile Include="..\Code\CMonsterSystem.cpp" />
+    <ClCompile Include="..\Code\CMonster_Boss.cpp" />
+    <ClCompile Include="..\Code\CMonster_Clone_Boss.cpp" />
+    <ClCompile Include="..\Code\CMoveMent.cpp" />
+    <ClCompile Include="..\Code\COBB.cpp" />
+    <ClCompile Include="..\Code\CObjectIDMaker.cpp" />
+    <ClCompile Include="..\Code\CObjectManager.cpp" />
+    <ClCompile Include="..\Code\CObjectPoolingManager.cpp" />
+    <ClCompile Include="..\Code\CObstacle.cpp" />
+    <ClCompile Include="..\Code\CollisionFunc.cpp" />
+    <ClCompile Include="..\Code\CParticle.cpp" />
+    <ClCompile Include="..\Code\CParticleOnFloorRecTex.cpp" />
+    <ClCompile Include="..\Code\CParticleRecTex.cpp" />
+    <ClCompile Include="..\Code\CParticleRecTex_Alpha.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Barrel.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Blood.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Bone.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Book.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_BrokenCube.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Bush.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Eat.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Rain.cpp" />
+    <ClCompile Include="..\Code\CParticleSystem_Sparkle.cpp" />
+    <ClCompile Include="..\Code\CPartitionManager.cpp" />
+    <ClCompile Include="..\Code\CPathFunction.cpp" />
+    <ClCompile Include="..\Code\CPlane.cpp" />
+    <ClCompile Include="..\Code\CPlaneColl.cpp" />
+    <ClCompile Include="..\Code\CProtoTypeManager.cpp" />
+    <ClCompile Include="..\Code\CreatureCantGoCube.cpp" />
+    <ClCompile Include="..\Code\CRectCol.cpp" />
+    <ClCompile Include="..\Code\CRecTex.cpp" />
+    <ClCompile Include="..\Code\CRendererManager.cpp" />
+    <ClCompile Include="..\Code\CResourceBase.cpp" />
+    <ClCompile Include="..\Code\CResourceManager.cpp" />
+    <ClCompile Include="..\Code\CRoomSystem.cpp" />
+    <ClCompile Include="..\Code\CScene.cpp" />
+    <ClCompile Include="..\Code\CSceneManager.cpp" />
+    <ClCompile Include="..\Code\CScoreBoard.cpp" />
+    <ClCompile Include="..\Code\CSkyCube.cpp" />
+    <ClCompile Include="..\Code\CSoundManager.cpp" />
+    <ClCompile Include="..\Code\CSoundSystem.cpp" />
+    <ClCompile Include="..\Code\CSphere.cpp" />
+    <ClCompile Include="..\Code\CStatus.cpp" />
+    <ClCompile Include="..\Code\CSystemManager.cpp" />
+    <ClCompile Include="..\Code\CTerrainCol.cpp" />
+    <ClCompile Include="..\Code\CTerrainTex.cpp" />
+    <ClCompile Include="..\Code\CTexture.cpp" />
+    <ClCompile Include="..\Code\CTile.cpp" />
+    <ClCompile Include="..\Code\CTileManager.cpp" />
+    <ClCompile Include="..\Code\CTileTex.cpp" />
+    <ClCompile Include="..\Code\CTime.cpp" />
+    <ClCompile Include="..\Code\CTimeManager.cpp" />
+    <ClCompile Include="..\Code\CTimeSystem.cpp" />
+    <ClCompile Include="..\Code\CToolBufferCube.cpp" />
+    <ClCompile Include="..\Code\CToolBufferRect.cpp" />
+    <ClCompile Include="..\Code\CTransform.cpp" />
+    <ClCompile Include="..\Code\CTriggerEventManager.cpp" />
+    <ClCompile Include="..\Code\CTriCol.cpp" />
+    <ClCompile Include="..\Code\CUI.cpp" />
+    <ClCompile Include="..\Code\CUIManager.cpp" />
+    <ClCompile Include="..\Code\CUIRecTex.cpp" />
+    <ClCompile Include="..\Code\CUISystem.cpp" />
+    <ClCompile Include="..\Code\CUITileTex.cpp" />
+    <ClCompile Include="..\Code\CWallDecor.cpp" />
+    <ClCompile Include="..\Code\CWallet.cpp" />
+    <ClCompile Include="..\Code\CWeaponController.cpp" />
+    <ClCompile Include="..\Code\CVIBuffer.cpp" />
+    <ClCompile Include="..\Code\Geometry.cpp" />
+    <ClCompile Include="..\Code\GeometryHelper.cpp" />
+    <ClCompile Include="..\Code\ICam_BossIntro.cpp" />
+    <ClCompile Include="..\Code\ICameraState.cpp" />
+    <ClCompile Include="..\Code\ICam_EffectToolMode.cpp" />
+    <ClCompile Include="..\Code\ICam_FirstPerson.cpp" />
+    <ClCompile Include="..\Code\ICam_BossOrbital.cpp" />
+    <ClCompile Include="..\Code\ICam_OrbitalCam.cpp" />
+    <ClCompile Include="..\Code\ICam_Shake.cpp" />
+    <ClCompile Include="..\Code\ICam_TargetMode.cpp" />
+    <ClCompile Include="..\Code\ICam_ToolMode.cpp" />
+    <ClCompile Include="..\Code\ICam_ThirdPerson.cpp" />
+    <ClCompile Include="..\Code\ICam_UIMode.cpp" />
+    <ClCompile Include="..\Code\ICam_Zoom.cpp" />
+    <ClCompile Include="..\Code\ICam_ZoomOutMode.cpp" />
+    <ClCompile Include="..\Code\IWeaponState.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Boss_IceBall.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Boss_IcePillar.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Boss_Thunder_Drop.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Boss_Wind.cpp" />
+    <ClCompile Include="..\Code\IWeapon_FireRing.cpp" />
+    <ClCompile Include="..\Code\IWeapon_FireWand.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Goblin_FireBall.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Goblin_Hammer.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Gun.cpp" />
+    <ClCompile Include="..\Code\IWeapon_IceWand.cpp" />
+    <ClCompile Include="..\Code\IndexBuffer.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Mace.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Orge_Axe.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Rat.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Skeleton_Sword.cpp" />
+    <ClCompile Include="..\Code\IWeapon_Wizard.cpp" />
+    <ClCompile Include="..\Code\JsonFunction.cpp" />
+    <ClCompile Include="..\Code\PartitionHelper.cpp" />
+    <ClCompile Include="..\Code\ShaderConstantBuffer.cpp" />
+    <ClCompile Include="..\Code\VertexBuffer.cpp" />
+    <ClCompile Include="..\Header\CGroundDecor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3e3f84e4-ae10-47f5-95cf-d35867ca535f}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin\Debug</OutDir>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin\Release</OutDir>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)/fmod;../Header;../../Base;$(SolutionDir)include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Bin\$(ConfigurationName);../../Reference/Library/</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Bin\$(ConfigurationName);$(ProjectDir)..\Lib\x64\$(ConfigurationName)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)/fmod;../Header;../../Base;$(SolutionDir)include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Bin\$(ConfigurationName);$(ProjectDir)..\Lib\x64\$(ConfigurationName)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

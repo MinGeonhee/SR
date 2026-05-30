@@ -1,0 +1,88 @@
+{
+  "frames": [{
+        "filename": "DEFAULT_WOOD_DOOR",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        }
+      },
+    {
+        "filename": "DEFAULT_IRON_DOOR",
+        "frame": {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 64
+        }
+    },
+      {
+        "filename": "SWITCH_WOOD_DOOR",
+        "frame": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        }
+      },
+    {
+        "filename": "SWITCH_IRON_DOOR",
+        "frame": {
+            "x": 192,
+            "y": 0,
+            "w": 64,
+            "h": 64
+        }
+    },
+    {
+        "filename": "BRONZE_DOOR",
+        "frame": {
+            "x": 256,
+            "y": 0,
+            "w": 64,
+            "h": 64
+        }
+    },
+    {
+        "filename": "SILVER_DOOR",
+        "frame": {
+            "x": 320,
+            "y": 0,
+            "w": 64,
+            "h": 64
+        }
+    },
+    {
+        "filename": "GOLD_DOOR",
+        "frame": {
+            "x": 384,
+            "y": 0,
+            "w": 64,
+            "h": 64
+        }
+    },
+    {
+        "filename": "BOSS_DOOR",
+        "frame": {
+            "x": 448,
+            "y": 0,
+            "w": 64,
+            "h": 64
+        }
+    }
+    ],
+  "meta": {
+    "app": "Custom Atlas Generator",
+    "version": "1.0",
+    "image": "DoorAtlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 64
+    },
+    "scale": "1",
+    "MAPOBJECT_CATEGORY": "DOOR",
+    "MAPOBJECT_PLACEMENT": "GROUND"
+  }
+}

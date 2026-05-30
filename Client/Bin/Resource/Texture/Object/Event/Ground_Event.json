@@ -1,0 +1,217 @@
+{"frames": [
+
+{
+	"filename": "ANTENAE",
+	"frame": {"x":141,"y":109,"w":42,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":42,"h":128},
+	"sourceSize": {"w":64,"h":128}
+},
+{
+	"filename": "BARREL",
+	"frame": {"x":170,"y":1,"w":26,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":32},
+	"sourceSize": {"w":26,"h":32}
+},
+{
+	"filename": "BEERTABLE",
+	"frame": {"x":1,"y":39,"w":56,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":1,"w":56,"h":31},
+	"sourceSize": {"w":64,"h":32}
+},
+{
+	"filename": "BOOK",
+	"frame": {"x":71,"y":1,"w":26,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":23},
+	"sourceSize": {"w":26,"h":23}
+},
+{
+	"filename": "BROKEWALL",
+	"frame": {"x":286,"y":39,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "BRONZEDOOR",
+	"frame": {"x":356,"y":39,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "BUSH",
+	"frame": {"x":398,"y":1,"w":46,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":31},
+	"sourceSize": {"w":46,"h":31}
+},
+{
+	"filename": "CHEST",
+	"frame": {"x":244,"y":1,"w":42,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":30},
+	"sourceSize": {"w":42,"h":30}
+},
+{
+	"filename": "CHICKENTABLE",
+	"frame": {"x":63,"y":39,"w":56,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":56,"h":32},
+	"sourceSize": {"w":64,"h":32}
+},
+{
+	"filename": "CORPSE",
+	"frame": {"x":202,"y":1,"w":36,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":31},
+	"sourceSize": {"w":36,"h":31}
+},
+{
+	"filename": "DOOR",
+	"frame": {"x":426,"y":39,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "DUMMY",
+	"frame": {"x":125,"y":39,"w":60,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":30},
+	"sourceSize": {"w":60,"h":30}
+},
+{
+	"filename": "FATPOT",
+	"frame": {"x":103,"y":1,"w":26,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":25},
+	"sourceSize": {"w":26,"h":25}
+},
+{
+	"filename": "FLOWERBUSH",
+	"frame": {"x":450,"y":1,"w":46,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":31},
+	"sourceSize": {"w":46,"h":31}
+},
+{
+	"filename": "FLOWERPOT",
+	"frame": {"x":135,"y":1,"w":29,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":4,"w":29,"h":28},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "GOLDCHEST",
+	"frame": {"x":292,"y":1,"w":42,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":30},
+	"sourceSize": {"w":42,"h":30}
+},
+{
+	"filename": "GOLDDOOR",
+	"frame": {"x":1,"y":109,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "LONGPOT",
+	"frame": {"x":19,"y":1,"w":17,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":29},
+	"sourceSize": {"w":17,"h":29}
+},
+{
+	"filename": "ORB",
+	"frame": {"x":191,"y":39,"w":39,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":47},
+	"sourceSize": {"w":39,"h":47}
+},
+{
+	"filename": "ORBFIELD",
+	"frame": {"x":189,"y":109,"w":256,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":64},
+	"sourceSize": {"w":256,"h":64}
+},
+{
+	"filename": "POUCH",
+	"frame": {"x":42,"y":1,"w":23,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":22},
+	"sourceSize": {"w":23,"h":22}
+},
+{
+	"filename": "SILVERDOOR",
+	"frame": {"x":71,"y":109,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "STATUETORCH",
+	"frame": {"x":236,"y":39,"w":44,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":59},
+	"sourceSize": {"w":44,"h":59}
+},
+{
+	"filename": "TORCH2",
+	"frame": {"x":1,"y":1,"w":12,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":12,"h":32},
+	"sourceSize": {"w":16,"h":32}
+},
+{
+	"filename": "WELL",
+	"frame": {"x":340,"y":1,"w":52,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":27},
+	"sourceSize": {"w":52,"h":27}
+}],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "GroundEvent.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 497,
+			"h": 238
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:d287bb8a73bcc5b25759b7a147030078:cdae1eafeb70da2cbf6ab3424c7cc76e:f38925d2474fa341bc16205594374719$",
+		"MAPOBJECT_CATEGORY": "EVENT",
+		"MAPOBJECT_PLACEMENT": "GROUND"
+	}
+}

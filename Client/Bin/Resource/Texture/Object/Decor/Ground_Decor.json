@@ -1,0 +1,201 @@
+{"frames": [
+
+{
+	"filename": "Ground_Decor_0.png",
+	"frame": {"x":13,"y":13,"w":14,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":13},
+	"sourceSize": {"w":14,"h":13}
+},
+{
+	"filename": "Ground_Decor_1.png",
+	"frame": {"x":36,"y":13,"w":25,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":14},
+	"sourceSize": {"w":25,"h":14}
+},
+{
+	"filename": "Ground_Decor_2.png",
+	"frame": {"x":70,"y":13,"w":15,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":8},
+	"sourceSize": {"w":15,"h":8}
+},
+{
+	"filename": "Ground_Decor_3.png",
+	"frame": {"x":13,"y":36,"w":58,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":16},
+	"sourceSize": {"w":58,"h":16}
+},
+{
+	"filename": "Ground_Decor_4.png",
+	"frame": {"x":13,"y":61,"w":56,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":15},
+	"sourceSize": {"w":56,"h":15}
+},
+{
+	"filename": "Ground_Decor_5.png",
+	"frame": {"x":13,"y":85,"w":58,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":13},
+	"sourceSize": {"w":58,"h":13}
+},
+{
+	"filename": "Ground_Decor_6.png",
+	"frame": {"x":13,"y":107,"w":37,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":14},
+	"sourceSize": {"w":37,"h":14}
+},
+{
+	"filename": "Ground_Decor_7.png",
+	"frame": {"x":59,"y":107,"w":17,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":14},
+	"sourceSize": {"w":17,"h":14}
+},
+{
+	"filename": "Ground_Decor_8.png",
+	"frame": {"x":85,"y":107,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":29},
+	"sourceSize": {"w":26,"h":29}
+},
+{
+	"filename": "Ground_Decor_9.png",
+	"frame": {"x":13,"y":145,"w":31,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":14},
+	"sourceSize": {"w":31,"h":14}
+},
+{
+	"filename": "Ground_Decor_10.png",
+	"frame": {"x":53,"y":145,"w":20,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":9},
+	"sourceSize": {"w":20,"h":9}
+},
+{
+	"filename": "Ground_Decor_11.png",
+	"frame": {"x":82,"y":145,"w":31,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":11},
+	"sourceSize": {"w":31,"h":11}
+},
+{
+	"filename": "Ground_Decor_12.png",
+	"frame": {"x":13,"y":168,"w":39,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":9},
+	"sourceSize": {"w":39,"h":9}
+},
+{
+	"filename": "Ground_Decor_13.png",
+	"frame": {"x":61,"y":168,"w":35,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":11},
+	"sourceSize": {"w":35,"h":11}
+},
+{
+	"filename": "Ground_Decor_14.png",
+	"frame": {"x":13,"y":188,"w":27,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":11},
+	"sourceSize": {"w":27,"h":11}
+},
+{
+	"filename": "Ground_Decor_15.png",
+	"frame": {"x":49,"y":188,"w":24,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":17},
+	"sourceSize": {"w":24,"h":17}
+},
+{
+	"filename": "Ground_Decor_16.png",
+	"frame": {"x":82,"y":188,"w":31,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":18},
+	"sourceSize": {"w":31,"h":18}
+},
+{
+	"filename": "Ground_Decor_17.png",
+	"frame": {"x":13,"y":215,"w":8,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":51},
+	"sourceSize": {"w":8,"h":51}
+},
+{
+	"filename": "Ground_Decor_18.png",
+	"frame": {"x":30,"y":215,"w":8,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":115},
+	"sourceSize": {"w":8,"h":115}
+},
+{
+	"filename": "Ground_Decor_19.png",
+	"frame": {"x":47,"y":215,"w":8,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":176},
+	"sourceSize": {"w":8,"h":176}
+},
+{
+	"filename": "Ground_Decor_20.png",
+	"frame": {"x":64,"y":215,"w":10,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":64},
+	"sourceSize": {"w":10,"h":64}
+},
+{
+	"filename": "Ground_Decor_21.png",
+	"frame": {"x":83,"y":215,"w":10,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":128},
+	"sourceSize": {"w":10,"h":128}
+},
+{
+	"filename": "Ground_Decor_22.png",
+	"frame": {"x":102,"y":215,"w":10,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":192},
+	"sourceSize": {"w":10,"h":192}
+}],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "Ground_Decor.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 126,
+			"h": 420
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:90e10bc3999e9f3939c004fa160792f7:3ab50d20aa841fbf6ef45490e2a55f95:a83b02d6d96075237e0b698998a0d27a$",
+		"MAPOBJECT_CATEGORY": "DECOR",
+		"MAPOBJECT_PLACEMENT": "GROUND"
+	}
+}

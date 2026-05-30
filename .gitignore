@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
-
+*.vs
+*.wav
 # Compiled Object files
 *.slo
 *.lo

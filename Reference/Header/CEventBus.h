@@ -1,0 +1,239 @@
+#pragma once
+#include "CBase.h"
+#include "Engine_Define.h"
+
+BEGIN(Engine)
+
+#pragma region 설명
+
+// 전역적으로 사용할 수 있는 우편함을 만든다.
+// Publisher가 EventBus에 event를 등록하고 등록된 Event를 구독자가 받는 형태로 만든다.
+// Topic / Channel / Phase 분리 
+
+// Channel = 같은 종류 내에서 대상 그룹 구분(문-열쇠 퍼즐 채널, 퀘스트 ID 등).
+// Topic = 어떤 이벤트를 처리할지 ex) OnInteract, OnTimeout, KeyPicked, DoorUnlockRequested
+// Phase = 시작/진행/종료 같은 “언제 처리할지”의 축.
+//           enum class Phase { Begin, Update, End } 처럼 별도 축으로 분리.
+
+// ===================================================================================
+
+/*이벤트에 꼭 들어가야 하는 3가지(채널 외)
+Target(대상 선택자)
+
+가장 흔한 건 targetId(DoorID) : 특정 문 1개만 유니캐스트
+
+또는 selector : 채널 내 모든 문 / 태그 필터 / 범위 등 브로드캐스트 조건
+
+Topic(무슨 종류의 동작 ? )
+
+예 : UnlockRequested, Open, Close, Lock, PlayAnim, SetAutoClose …(열거형 / 정수 ID)
+
+Phase(언제 처리 ? )
+
+Begin / Update / End 같은 처리 타이밍 큐 선택
+
+정리 : Channel(도메인 = Door) + Topic(무엇) + Target / Selector(누구) + Phase(언제)
+*/
+#pragma endregion
+
+// 어느 시점에 처리를 할 것인가에 대해 정해두는 것.
+enum  class PHASE : uint8_t
+{
+    PHASE_BEGIN = 0, 
+    PHASE_UPDATE = 1, 
+    PHASE_END = 2,
+
+    PHASE_COUNT,
+};
+
+enum
+{
+    PHASE_TYPE_COUNT = static_cast<size_t>(PHASE::PHASE_COUNT)
+};
+
+// 어떠한 주제로 event를 발행할 것인지.
+enum class TOPIC : uint16_t
+{
+    COLLISION_ENTER, COLLISION_EXIT, // 단순 충돌. ex) 문과 플레이어가 충돌하면 UI창 생성(E: 상호작용)
+    STAGE_EXIT,
+
+    RAYCOLLISION, 
+
+    TRIGGER_ENTER, TRIGGER_EXIT,    // 어떤 상호작용으로 인하여 Trigger가 들어왔을 때. ex) 문 들어가기를 눌렀을 때, 트리거가 켜짐.
+    ROOM_ENTER, ROOM_EXIT,      // 방에 들어왔다, 방에 나갔다.
+    DOOR_OPEN, DOOR_CLOSE,      // 문이 열렸다, 문이 닫혔다.
+
+
+    // 무기
+    Upgrade_Mace,
+    Upgrade_Ice,
+    Upgrade_FireBall,
+
+    //UI부류
+    DoorUINotice,// 문 앞에 다가갔을 때 나오는 E 상호작용 알림
+    LockDoorUINotice,
+    DoorCantOpenUI,
+
+    INTERACTNOTICE,
+
+    Go_Main,
+    Go_Setting,
+    Go_Tutorial,
+    Go_1st,
+    Go_2st,
+    Go_Boss,
+    Go_Next,
+    Stage_Restart,
+	Stage_Start,
+    Stage_Clear,
+	Stage_Fail,
+	Open_Shop,
+    ONHEALEDFULL,
+    Get_Weapon,
+    Eat_Effect,
+    Get_Effect,
+    BOSS_CLEAR,
+   
+    // 보스 관련
+    Boss_Appear, Boss_Gimmik, Boss1Phaseto2, Boss2Phase, BossDie,
+
+    // 카메라
+    DeathSequenceCAM, IslandTourCam,
+
+    // 사운드 부류
+    Fire,
+
+    // 시간 부류
+    TIME_STOP, TIME_RESUME,
+    
+    // 전투 - 상태이상 부류
+    ONDAMAGED, ONHEALED,       // 데미지를 받았다, 힐을 받았다.
+    FROZEN,     // 상태이상 BEGIN, UPDATE, END를 통해서 BEGIN
+    MONSTERSPAWN,
+
+    // 플레이어
+    AMMO_EMPTY, // 총알이 다 떨어짐
+
+    // Key INput 관련
+    E_KEY,
+
+    TOPIC_COUNT,
+};
+
+enum
+{
+    TOPIC_TYPE_COUNT = static_cast<size_t>(TOPIC::TOPIC_COUNT)
+};
+
+// 어떠한 채널을 만들 것인지.
+enum class CHANNEL : uint16_t
+{
+    Global,
+    Combat,
+    UI,
+    Door,
+    Room,
+    Key,
+    Player,
+    Monster,
+    Boss,
+    Sound,
+    ITEM,
+    Camera,
+    INTERACTION,
+    EVENTCUBE,
+    EYEOFCHAOS,
+
+    CHANNEL_COUNT,
+};
+
+enum
+{
+    CHNNEL_TYPE_COUNT = static_cast<size_t>(CHANNEL::CHANNEL_COUNT)
+};
+
+class CGameObject;
+// 이벤트 기본적으로 들어가는 것.
+struct EVENT 
+{
+    PHASE   phase;
+    TOPIC   topic;
+    CHANNEL channel;
+    CGameObject*  sourcePtr;            // Origin_Dynamic Type이라면  sourcePtr 쓰면 안됨. 
+    CGameObject* targetPtr;            //  Origin_Dynamic Type이라면  targetPrt 쓰면 안됨. 
+    ObjectHandle  sourceHandle;        // 반드시 PoolingManager에게 Resolve 함수를 통해 Handle을 넘기고 CGameObject* 받아오기.
+    ObjectHandle  targetHandle;        // 반드시 PoolingManager에게 Resolve 함수를 통해 Handle을 넘기고 CGameObject* 받아오기.
+};
+
+// 각 주제에 맞는 페이로드 설정.
+
+class ENGINE_DLL CEventBus 
+    : public CBase 
+{
+    DECLARE_SINGLETON(CEventBus)
+
+private:
+    explicit CEventBus();
+    virtual ~CEventBus();
+
+public:
+
+    // 이벤트 발행하기. Queue 안에 저장한다.
+    void publish(const EVENT& event)
+    {
+        auto& vec = m_vChannelTopicList[static_cast<uint8_t>(event.phase)];
+        
+        if (vec.empty())
+            vec.emplace_back();     // CHANNEL_TOPIC 생성하고 넣어둔다.
+         
+        auto& Channel = vec[0]; // 채널을 꺼내온다.
+        auto& Topic = Channel[event.channel];   // 해당 채널에 있는 TOPIC_EVENT 담겨있는 vector 담아오기.
+        Topic[static_cast<uint16_t>(event.topic)].push(event);  // Phase -> Channel -> Topic 안에 Event 저장.
+    }
+
+    // 꺼내서 처리: DoorSystem이 자기 타이밍에 호출
+    // TryPop으로 함수명 하라는데 응 안해
+    bool Subscribe(CHANNEL ch, TOPIC tp, PHASE ph, EVENT& event, bool bDelete) // Phase -> Channel -> Topic 순으로 타고 들어가서 맞는 event가 있으면 반환.
+                                                                    // 만약에 해당 event를 여러군데에서도 쓸 수 있기 때문에 bool이 true면 pop하고 false면 그대로 냅둔다.
+    {
+        auto& vec = m_vChannelTopicList[static_cast<uint8_t>(ph)];
+
+        if (vec.empty())    // PHASE가 생성도 안되어있으면 return
+            return false;
+
+        auto& channelMap = vec[0];
+
+        auto it = channelMap.find(ch); // 채널을 찾아보고 없으면 return
+
+        if (it == channelMap.end())
+            return false;
+
+        auto& topic = it->second[static_cast<size_t>(tp)];
+
+        if (topic.empty())      // 주제가 전부 비어있다면 return
+            return false;
+
+        event = topic.front();
+
+        if (bDelete)            // 만약에 삭제해야한다면. 삭제.
+            topic.pop();
+
+        return true;
+    }
+
+    void Delete_Event();
+
+private:
+
+    void            Free();
+    // 다 죽어라 블로그 ㅅㅂ 그냥 더러워서 내가 만들고 만다.
+    // 다 죽어라 GPT ㅅㅂ
+    // ㅅㅄㅄㅄㅄㅄㅄㅅㅂ
+
+    using TOPIC_EVENT = std::array<queue<EVENT>, TOPIC_TYPE_COUNT>; 
+    using CHANNEL_TOPIC = std::unordered_map<CHANNEL, TOPIC_EVENT>;
+
+    std::vector<CHANNEL_TOPIC>      m_vChannelTopicList[PHASE_TYPE_COUNT];
+};
+
+END

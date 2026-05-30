@@ -1,0 +1,212 @@
+{
+  "frames": {
+    "RECOVERY": [
+      {
+        "filename": "ITEM_BERRIES",
+        "frame": {
+          "x": 132,
+          "y": 0,
+          "w": 11,
+          "h": 13
+        }
+      },
+      {
+        "filename": "ITEM_HEALTH_SHARD",
+        "frame": {
+          "x": 33,
+          "y": 135,
+          "w": 14,
+          "h": 14
+        }
+      },
+      {
+        "filename": "ITEM_ARMOR_SHARD",
+        "frame": {
+          "x": 99,
+          "y": 0,
+          "w": 32,
+          "h": 32
+        }
+      },
+      {
+        "filename": "ITEM_GREATER_POTION",
+        "frame": {
+          "x": 99,
+          "y": 90,
+          "w": 19,
+          "h": 23
+        }
+      }
+    ],
+
+    "COINS": [
+      {
+        "filename": "ITEM_BROZE_COINS",
+        "frame": {
+          "x": 33,
+          "y": 45,
+          "w": 31,
+          "h": 11
+        }
+      },
+      {
+        "filename": "ITEM_SILVER_COINS",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "w": 27,
+          "h": 13
+        }
+      },
+      {
+        "filename": "ITEM_GOLD_COINS",
+        "frame": {
+          "x": 33,
+          "y": 90,
+          "w": 29,
+          "h": 16
+        }
+      },
+      {
+        "filename": "ITEM_COIN_PURSE",
+        "frame": {
+          "x": 66,
+          "y": 45,
+          "w": 20,
+          "h": 16
+        }
+      },
+      {
+        "filename": "ITEM_GOLD_CHALICE",
+        "frame": {
+          "x": 0,
+          "y": 90,
+          "w": 20,
+          "h": 20
+        }
+      }
+    ],
+
+    "WEAPONS": [
+      {
+        "filename": "ITEM_FIREBALL_RING",
+        "frame": {
+          "x": 132,
+          "y": 45,
+          "w": 33,
+          "h": 32
+        }
+      },
+      {
+        "filename": "ITEM_ICEWAND",
+        "frame": {
+          "x": 99,
+          "y": 135,
+          "w": 14,
+          "h": 45
+        }
+      },
+      {
+        "filename": "ITEM_GUN",
+        "frame": {
+          "x": 132,
+          "y": 90,
+          "w": 28,
+          "h": 36
+        }
+      }
+    ],
+
+    "BULLETS": [
+      {
+        "filename": "ITEM_LOW_MANA",
+        "frame": {
+          "x": 132,
+          "y": 135,
+          "w": 32,
+          "h": 32
+        }
+      },
+      {
+        "filename": "ITEM_FIRE_SHARD",
+        "frame": {
+          "x": 99,
+          "y": 45,
+          "w": 32,
+          "h": 32
+        }
+      },
+      {
+        "filename": "ITEM_ICE_SHARD",
+        "frame": {
+          "x": 66,
+          "y": 135,
+          "w": 21,
+          "h": 19
+        }
+      },
+      {
+        "filename": "ITEM_GUN_BULLET",
+        "frame": {
+          "x": 0,
+          "y": 135,
+          "w": 29,
+          "h": 27
+        }
+      }
+    ],
+
+    "KEYS": [
+      {
+        "filename": "ITEM_BRONZE_KEY",
+        "frame": {
+          "x": 0,
+          "y": 45,
+          "w": 25,
+          "h": 13
+        }
+      },
+      {
+        "filename": "ITEM_SILVER_KEY",
+        "frame": {
+          "x": 33,
+          "y": 0,
+          "w": 27,
+          "h": 15
+        }
+      },
+      {
+        "filename": "ITEM_GOLD_KEY",
+        "frame": {
+          "x": 66,
+          "y": 90,
+          "w": 28,
+          "h": 15
+        }
+      },
+      {
+        "filename": "ITEM_TREASURE_KEY",
+        "frame": {
+          "x": 66,
+          "y": 0,
+          "w": 28,
+          "h": 17
+        }
+      }
+    ]
+  },
+
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ItemAtlas_new.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 165,
+      "h": 180
+    },
+    "scale": "1",
+    "MAPOBJECT_CATEGORY": "ITEM",
+    "MAPOBJECT_PLACEMENT": "GROUND"
+  }
+}
